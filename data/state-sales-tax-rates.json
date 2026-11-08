@@ -1,0 +1,1055 @@
+{
+  "metadata": {
+    "name": "State sales tax rates by state",
+    "description": "The statewide sales tax rate of each state and the District of Columbia as FedRateCalc reads it from an official source: the state tax agency's own page, the state's statute or an agency PDF. 37 states are verified and carry a rate (0 where the source says the state has no general sales tax; Hawaii's general excise tax and Arizona's transaction privilege tax are labelled as such). The other 14 states are pending: their official source has not been read yet, so the file gives their official URL and no rate. Each verified row names the source type, the citation, the effective date when the source states one, whether the source says local taxes apply, and the date the source was checked. Local, county and city rates are not in this file.",
+    "url": "https://fedratecalc.com/data/state-sales-tax-rates/",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "licenseName": "CC BY 4.0",
+    "attribution": "FedRateCalc",
+    "attributionText": "FedRateCalc (https://fedratecalc.com/data/state-sales-tax-rates/), CC BY 4.0",
+    "licenseNote": "The rates come from state agencies and state codes; reuse terms of a state's own pages are set by that state.",
+    "sources": [
+      {
+        "label": "Alabama: state tax agency",
+        "href": "https://www.revenue.alabama.gov/sales-use/tax-rates/"
+      },
+      {
+        "label": "Alaska: state tax agency",
+        "href": "https://tax.alaska.gov/programs/programs/index.aspx?10002"
+      },
+      {
+        "label": "Arizona: state statute (A.R.S. 42-5010(A)(1) and 42-5010.01)",
+        "href": "https://www.azleg.gov/ars/42/05010.htm"
+      },
+      {
+        "label": "Arkansas: state tax agency",
+        "href": "https://www.dfa.arkansas.gov/office/taxes/excise-tax-administration/sales-use-tax/sales-and-use-tax-faqs/"
+      },
+      {
+        "label": "California: state tax agency",
+        "href": "https://cdtfa.ca.gov/taxes-and-fees/sales-use-tax-rates.htm"
+      },
+      {
+        "label": "Connecticut: state tax agency",
+        "href": "https://portal.ct.gov/DRS/Sales-Tax/Tax-Information"
+      },
+      {
+        "label": "District of Columbia: state statute (DC Official Code 47-2002)",
+        "href": "https://code.dccouncil.gov/us/dc/council/code/sections/47-2002"
+      },
+      {
+        "label": "Florida: state tax agency",
+        "href": "https://floridarevenue.com/taxes/taxesfees/Pages/sales_tax.aspx"
+      },
+      {
+        "label": "Georgia: Georgia Department of Revenue (Sales and Use Tax Rate Chart)",
+        "href": "https://dor.georgia.gov/document/document/httpsdorgeorgiagovdocumentdocumentgeneral-rate-chart-effective-october-1-2026/download"
+      },
+      {
+        "label": "Hawaii: state tax agency",
+        "href": "https://tax.hawaii.gov/get/FAQ/"
+      },
+      {
+        "label": "Idaho: state tax agency",
+        "href": "https://tax.idaho.gov/taxes/sales-use/online-guide/"
+      },
+      {
+        "label": "Iowa: state tax agency",
+        "href": "https://revenue.iowa.gov/taxes/tax-guidance/sales-use-excise-tax/sales-use-tax-guide"
+      },
+      {
+        "label": "Kansas: state statute (K.S.A. 79-3603)",
+        "href": "https://www.ksrevisor.org/statutes/chapters/ch79/079_036_0003.html"
+      },
+      {
+        "label": "Maine: state statute (36 M.R.S. 1811)",
+        "href": "https://legislature.maine.gov/statutes/36/title36sec1811.html"
+      },
+      {
+        "label": "Maryland: state statute (Annotated Code of Maryland, Tax-General 11-104)",
+        "href": "https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=gtg&section=11-104&enactments=false"
+      },
+      {
+        "label": "Massachusetts: state tax agency",
+        "href": "https://www.mass.gov/guides/sales-and-use-tax"
+      },
+      {
+        "label": "Minnesota: state statute (Minnesota Statutes 297A.62)",
+        "href": "https://www.revisor.mn.gov/statutes/cite/297A.62"
+      },
+      {
+        "label": "Mississippi: state tax agency",
+        "href": "https://www.dor.ms.gov/business/sales-use-tax/sales-tax-rates"
+      },
+      {
+        "label": "Montana: state tax agency",
+        "href": "https://revenue.mt.gov/taxes/general-sales-tax"
+      },
+      {
+        "label": "Nebraska: state tax agency",
+        "href": "https://revenue.nebraska.gov/businesses/nebraska-sales-and-use-tax"
+      },
+      {
+        "label": "New Jersey: state tax agency",
+        "href": "https://www.nj.gov/treasury/taxation/salestax.shtml"
+      },
+      {
+        "label": "New York: New York State Department of Taxation and Finance (Publication 718 (2/25))",
+        "href": "https://www.tax.ny.gov/pdf/publications/sales/pub718.pdf"
+      },
+      {
+        "label": "North Carolina: state tax agency",
+        "href": "https://www.ncdor.gov/taxes-forms/sales-and-use-tax/sales-and-use-tax-rates"
+      },
+      {
+        "label": "Oklahoma: state tax agency",
+        "href": "https://oklahoma.gov/tax/businesses/sales-use-tax.html"
+      },
+      {
+        "label": "Oregon: state tax agency",
+        "href": "https://www.oregon.gov/dor/programs/businesses/Pages/sales-tax.aspx"
+      },
+      {
+        "label": "Pennsylvania: state tax agency",
+        "href": "https://www.pa.gov/agencies/revenue/resources/tax-types-and-information/sales-use-and-hotel-occupancy-tax"
+      },
+      {
+        "label": "South Carolina: state tax agency",
+        "href": "https://dor.sc.gov/sales-use-tax-index"
+      },
+      {
+        "label": "South Dakota: state tax agency",
+        "href": "https://dor.sd.gov/businesses/taxes/sales-use-tax/"
+      },
+      {
+        "label": "Tennessee: state tax agency",
+        "href": "https://www.tn.gov/revenue/taxes/sales-and-use-tax.html"
+      },
+      {
+        "label": "Texas: state tax agency",
+        "href": "https://comptroller.texas.gov/taxes/sales/"
+      },
+      {
+        "label": "Utah: state statute (Utah Code 59-12-103)",
+        "href": "https://le.utah.gov/xcode/Title59/Chapter12/C59-12-S103_2026050620260701.html"
+      },
+      {
+        "label": "Vermont: state statute (32 V.S.A. 9771)",
+        "href": "https://legislature.vermont.gov/statutes/section/32/233/09771"
+      },
+      {
+        "label": "Virginia: state statute (Code of Virginia 58.1-603)",
+        "href": "https://law.lis.virginia.gov/vacode/title58.1/chapter6/section58.1-603/"
+      },
+      {
+        "label": "Washington: state tax agency",
+        "href": "https://dor.wa.gov/taxes-rates/retail-sales-tax"
+      },
+      {
+        "label": "West Virginia: state tax agency",
+        "href": "https://tax.wv.gov/Business/SalesAndUseTax/Pages/SalesAndUseTax.aspx"
+      },
+      {
+        "label": "Wisconsin: state tax agency",
+        "href": "https://www.revenue.wi.gov/Pages/FAQS/pcs-taxrates.aspx"
+      },
+      {
+        "label": "Wyoming: state statute (W.S. 39-15-104)",
+        "href": "https://wyoleg.gov/statutes/compress/title39.pdf"
+      }
+    ],
+    "generated": "2026-11-05",
+    "dataAsOf": "2026-11-08",
+    "temporalCoverage": "2026-11-08/2026-11-08",
+    "columns": [
+      {
+        "name": "state",
+        "type": "string",
+        "meaning": "State name (the District of Columbia is included)."
+      },
+      {
+        "name": "state_abbr",
+        "type": "string",
+        "meaning": "Two-letter postal abbreviation."
+      },
+      {
+        "name": "status",
+        "type": "enum",
+        "meaning": "verified when the rate was read in an official source and saved, pending when it has not been read yet."
+      },
+      {
+        "name": "tax_kind",
+        "type": "enum",
+        "meaning": "sales (a state sales tax), none (the source says no general sales tax), get (Hawaii general excise tax) or tpt (Arizona transaction privilege tax); empty for a pending state."
+      },
+      {
+        "name": "statewide_rate_pct",
+        "type": "number",
+        "meaning": "Statewide rate in percent; 0 where there is no general sales tax; empty for a pending state, which has no rate in this file."
+      },
+      {
+        "name": "rate_effective_date",
+        "type": "date",
+        "meaning": "Date the source says the rate took effect (YYYY-MM-DD); empty when the source does not say."
+      },
+      {
+        "name": "effective_note",
+        "type": "string",
+        "meaning": "The source document's own date (for example an agency publication's effective date), which is not the date the rate took effect; empty when there is none."
+      },
+      {
+        "name": "local_taxes",
+        "type": "enum",
+        "meaning": "yes or no when the source says local sales taxes apply or do not, unstated when it says nothing; empty for a pending state."
+      },
+      {
+        "name": "caveat",
+        "type": "string",
+        "meaning": "A limit on how far the statewide rate reaches, taken from the source (for example a separate rate that applies to part of the state); empty when there is none."
+      },
+      {
+        "name": "source_type",
+        "type": "enum",
+        "meaning": "agency page (the state tax agency web page), statute (the state code as the state publishes it) or agency PDF (an agency publication or rate chart)."
+      },
+      {
+        "name": "citation",
+        "type": "string",
+        "meaning": "Statute citation or publication name for a statute or PDF source; empty for an agency page."
+      },
+      {
+        "name": "source_url",
+        "type": "string",
+        "meaning": "The official page the rate was read from; for a pending state, the official page still to be read."
+      },
+      {
+        "name": "checked",
+        "type": "date",
+        "meaning": "The date the verified state's source was checked (YYYY-MM-DD); empty for a pending state."
+      },
+      {
+        "name": "page_url",
+        "type": "string",
+        "meaning": "The state's FedRateCalc sales tax calculator page; empty for a pending state, whose page shows no rate."
+      }
+    ]
+  },
+  "rows": [
+    {
+      "state": "Alabama",
+      "state_abbr": "AL",
+      "status": "verified",
+      "tax_kind": "sales",
+      "statewide_rate_pct": 4,
+      "rate_effective_date": null,
+      "effective_note": null,
+      "local_taxes": "yes",
+      "caveat": null,
+      "source_type": "agency page",
+      "citation": null,
+      "source_url": "https://www.revenue.alabama.gov/sales-use/tax-rates/",
+      "checked": "2026-11-08",
+      "page_url": "https://fedratecalc.com/sales-tax-calculator/alabama/"
+    },
+    {
+      "state": "Alaska",
+      "state_abbr": "AK",
+      "status": "verified",
+      "tax_kind": "none",
+      "statewide_rate_pct": 0,
+      "rate_effective_date": null,
+      "effective_note": null,
+      "local_taxes": "yes",
+      "caveat": null,
+      "source_type": "agency page",
+      "citation": null,
+      "source_url": "https://tax.alaska.gov/programs/programs/index.aspx?10002",
+      "checked": "2026-11-08",
+      "page_url": "https://fedratecalc.com/sales-tax-calculator/alaska/"
+    },
+    {
+      "state": "Arizona",
+      "state_abbr": "AZ",
+      "status": "verified",
+      "tax_kind": "tpt",
+      "statewide_rate_pct": 5.6,
+      "rate_effective_date": null,
+      "effective_note": null,
+      "local_taxes": "unstated",
+      "caveat": "The 0.6% is imposed by A.R.S. 42-5010.01 from and after June 30, 2021 through June 30, 2041, so the statute sets the 5.6% total through that date. The 5.6% is the rate for the business classifications listed in A.R.S. 42-5010(A)(1), retail among them.",
+      "source_type": "statute",
+      "citation": "A.R.S. 42-5010(A)(1) and 42-5010.01",
+      "source_url": "https://www.azleg.gov/ars/42/05010.htm",
+      "checked": "2026-11-08",
+      "page_url": "https://fedratecalc.com/sales-tax-calculator/arizona/"
+    },
+    {
+      "state": "Arkansas",
+      "state_abbr": "AR",
+      "status": "verified",
+      "tax_kind": "sales",
+      "statewide_rate_pct": 6.5,
+      "rate_effective_date": "2013-07-01",
+      "effective_note": null,
+      "local_taxes": "yes",
+      "caveat": null,
+      "source_type": "agency page",
+      "citation": null,
+      "source_url": "https://www.dfa.arkansas.gov/office/taxes/excise-tax-administration/sales-use-tax/sales-and-use-tax-faqs/",
+      "checked": "2026-11-08",
+      "page_url": "https://fedratecalc.com/sales-tax-calculator/arkansas/"
+    },
+    {
+      "state": "California",
+      "state_abbr": "CA",
+      "status": "verified",
+      "tax_kind": "sales",
+      "statewide_rate_pct": 7.25,
+      "rate_effective_date": null,
+      "effective_note": null,
+      "local_taxes": "yes",
+      "caveat": null,
+      "source_type": "agency page",
+      "citation": null,
+      "source_url": "https://cdtfa.ca.gov/taxes-and-fees/sales-use-tax-rates.htm",
+      "checked": "2026-11-08",
+      "page_url": "https://fedratecalc.com/sales-tax-calculator/california/"
+    },
+    {
+      "state": "Colorado",
+      "state_abbr": "CO",
+      "status": "pending",
+      "tax_kind": null,
+      "statewide_rate_pct": null,
+      "rate_effective_date": null,
+      "effective_note": null,
+      "local_taxes": null,
+      "caveat": null,
+      "source_type": "agency page",
+      "citation": null,
+      "source_url": "https://tax.colorado.gov/sales-use-tax",
+      "checked": null,
+      "page_url": null
+    },
+    {
+      "state": "Connecticut",
+      "state_abbr": "CT",
+      "status": "verified",
+      "tax_kind": "sales",
+      "statewide_rate_pct": 6.35,
+      "rate_effective_date": null,
+      "effective_note": null,
+      "local_taxes": "no",
+      "caveat": null,
+      "source_type": "agency page",
+      "citation": null,
+      "source_url": "https://portal.ct.gov/DRS/Sales-Tax/Tax-Information",
+      "checked": "2026-11-08",
+      "page_url": "https://fedratecalc.com/sales-tax-calculator/connecticut/"
+    },
+    {
+      "state": "Delaware",
+      "state_abbr": "DE",
+      "status": "pending",
+      "tax_kind": null,
+      "statewide_rate_pct": null,
+      "rate_effective_date": null,
+      "effective_note": null,
+      "local_taxes": null,
+      "caveat": null,
+      "source_type": "agency page",
+      "citation": null,
+      "source_url": "https://revenue.delaware.gov/",
+      "checked": null,
+      "page_url": null
+    },
+    {
+      "state": "District of Columbia",
+      "state_abbr": "DC",
+      "status": "verified",
+      "tax_kind": "sales",
+      "statewide_rate_pct": 7,
+      "rate_effective_date": "2026-10-01",
+      "effective_note": null,
+      "local_taxes": "unstated",
+      "caveat": "The statute sets 6.0% for the period before October 1, 2026 and 7.0% beginning on October 1, 2026.",
+      "source_type": "statute",
+      "citation": "DC Official Code 47-2002",
+      "source_url": "https://code.dccouncil.gov/us/dc/council/code/sections/47-2002",
+      "checked": "2026-11-08",
+      "page_url": "https://fedratecalc.com/sales-tax-calculator/district-of-columbia/"
+    },
+    {
+      "state": "Florida",
+      "state_abbr": "FL",
+      "status": "verified",
+      "tax_kind": "sales",
+      "statewide_rate_pct": 6,
+      "rate_effective_date": null,
+      "effective_note": null,
+      "local_taxes": "yes",
+      "caveat": null,
+      "source_type": "agency page",
+      "citation": null,
+      "source_url": "https://floridarevenue.com/taxes/taxesfees/Pages/sales_tax.aspx",
+      "checked": "2026-11-08",
+      "page_url": "https://fedratecalc.com/sales-tax-calculator/florida/"
+    },
+    {
+      "state": "Georgia",
+      "state_abbr": "GA",
+      "status": "verified",
+      "tax_kind": "sales",
+      "statewide_rate_pct": 4,
+      "rate_effective_date": null,
+      "effective_note": "The rate chart is effective October 1, 2026.",
+      "local_taxes": "yes",
+      "caveat": "The chart says the 4% state rate is included in every jurisdiction except two Fulton County districts (codes 803 and 805).",
+      "source_type": "agency PDF",
+      "citation": "Sales and Use Tax Rate Chart",
+      "source_url": "https://dor.georgia.gov/document/document/httpsdorgeorgiagovdocumentdocumentgeneral-rate-chart-effective-october-1-2026/download",
+      "checked": "2026-11-08",
+      "page_url": "https://fedratecalc.com/sales-tax-calculator/georgia/"
+    },
+    {
+      "state": "Hawaii",
+      "state_abbr": "HI",
+      "status": "verified",
+      "tax_kind": "get",
+      "statewide_rate_pct": 4,
+      "rate_effective_date": null,
+      "effective_note": null,
+      "local_taxes": "yes",
+      "caveat": null,
+      "source_type": "agency page",
+      "citation": null,
+      "source_url": "https://tax.hawaii.gov/get/FAQ/",
+      "checked": "2026-11-08",
+      "page_url": "https://fedratecalc.com/sales-tax-calculator/hawaii/"
+    },
+    {
+      "state": "Idaho",
+      "state_abbr": "ID",
+      "status": "verified",
+      "tax_kind": "sales",
+      "statewide_rate_pct": 6,
+      "rate_effective_date": null,
+      "effective_note": null,
+      "local_taxes": "unstated",
+      "caveat": null,
+      "source_type": "agency page",
+      "citation": null,
+      "source_url": "https://tax.idaho.gov/taxes/sales-use/online-guide/",
+      "checked": "2026-11-08",
+      "page_url": "https://fedratecalc.com/sales-tax-calculator/idaho/"
+    },
+    {
+      "state": "Illinois",
+      "state_abbr": "IL",
+      "status": "pending",
+      "tax_kind": null,
+      "statewide_rate_pct": null,
+      "rate_effective_date": null,
+      "effective_note": null,
+      "local_taxes": null,
+      "caveat": null,
+      "source_type": "agency page",
+      "citation": null,
+      "source_url": "https://tax.illinois.gov/research/taxrates.html",
+      "checked": null,
+      "page_url": null
+    },
+    {
+      "state": "Indiana",
+      "state_abbr": "IN",
+      "status": "pending",
+      "tax_kind": null,
+      "statewide_rate_pct": null,
+      "rate_effective_date": null,
+      "effective_note": null,
+      "local_taxes": null,
+      "caveat": null,
+      "source_type": "agency page",
+      "citation": null,
+      "source_url": "https://www.in.gov/dor/business-tax/sales-tax/",
+      "checked": null,
+      "page_url": null
+    },
+    {
+      "state": "Iowa",
+      "state_abbr": "IA",
+      "status": "verified",
+      "tax_kind": "sales",
+      "statewide_rate_pct": 6,
+      "rate_effective_date": null,
+      "effective_note": null,
+      "local_taxes": "yes",
+      "caveat": null,
+      "source_type": "agency page",
+      "citation": null,
+      "source_url": "https://revenue.iowa.gov/taxes/tax-guidance/sales-use-excise-tax/sales-use-tax-guide",
+      "checked": "2026-11-08",
+      "page_url": "https://fedratecalc.com/sales-tax-calculator/iowa/"
+    },
+    {
+      "state": "Kansas",
+      "state_abbr": "KS",
+      "status": "verified",
+      "tax_kind": "sales",
+      "statewide_rate_pct": 6.5,
+      "rate_effective_date": null,
+      "effective_note": null,
+      "local_taxes": "unstated",
+      "caveat": "The statute also levies an additional 2% tax inside redevelopment districts established under K.S.A. 74-8921, until the earlier of the date the project bonds are paid in full or the final scheduled maturity of the first series of bonds. This calculator does not include it.",
+      "source_type": "statute",
+      "citation": "K.S.A. 79-3603",
+      "source_url": "https://www.ksrevisor.org/statutes/chapters/ch79/079_036_0003.html",
+      "checked": "2026-11-08",
+      "page_url": "https://fedratecalc.com/sales-tax-calculator/kansas/"
+    },
+    {
+      "state": "Kentucky",
+      "state_abbr": "KY",
+      "status": "pending",
+      "tax_kind": null,
+      "statewide_rate_pct": null,
+      "rate_effective_date": null,
+      "effective_note": null,
+      "local_taxes": null,
+      "caveat": null,
+      "source_type": "agency page",
+      "citation": null,
+      "source_url": "https://revenue.ky.gov/Business/Sales-Use-Tax/Pages/default.aspx",
+      "checked": null,
+      "page_url": null
+    },
+    {
+      "state": "Louisiana",
+      "state_abbr": "LA",
+      "status": "pending",
+      "tax_kind": null,
+      "statewide_rate_pct": null,
+      "rate_effective_date": null,
+      "effective_note": null,
+      "local_taxes": null,
+      "caveat": null,
+      "source_type": "agency page",
+      "citation": null,
+      "source_url": "https://revenue.louisiana.gov/SalesTax",
+      "checked": null,
+      "page_url": null
+    },
+    {
+      "state": "Maine",
+      "state_abbr": "ME",
+      "status": "verified",
+      "tax_kind": "sales",
+      "statewide_rate_pct": 5.5,
+      "rate_effective_date": null,
+      "effective_note": "The statute’s rate list applies to sales occurring on or after October 1, 2019.",
+      "local_taxes": "unstated",
+      "caveat": "The same paragraph sets higher rates for some items, such as 8% on prepared food. This calculator uses the general 5.5%.",
+      "source_type": "statute",
+      "citation": "36 M.R.S. 1811",
+      "source_url": "https://legislature.maine.gov/statutes/36/title36sec1811.html",
+      "checked": "2026-11-08",
+      "page_url": "https://fedratecalc.com/sales-tax-calculator/maine/"
+    },
+    {
+      "state": "Maryland",
+      "state_abbr": "MD",
+      "status": "verified",
+      "tax_kind": "sales",
+      "statewide_rate_pct": 6,
+      "rate_effective_date": null,
+      "effective_note": null,
+      "local_taxes": "unstated",
+      "caveat": "Maryland writes the rate as 6 cents for each exact dollar of the taxable price, and taxes the part of a dollar over an exact dollar on a schedule of cents (1 cent when the excess is 1 to 16 cents, 2 cents for 17 to 33, and so on). This calculator approximates it as 6% of the price, so on a price with cents the tax Maryland collects can differ from the result by a cent or two.",
+      "source_type": "statute",
+      "citation": "Annotated Code of Maryland, Tax-General 11-104",
+      "source_url": "https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=gtg&section=11-104&enactments=false",
+      "checked": "2026-11-08",
+      "page_url": "https://fedratecalc.com/sales-tax-calculator/maryland/"
+    },
+    {
+      "state": "Massachusetts",
+      "state_abbr": "MA",
+      "status": "verified",
+      "tax_kind": "sales",
+      "statewide_rate_pct": 6.25,
+      "rate_effective_date": null,
+      "effective_note": null,
+      "local_taxes": "unstated",
+      "caveat": null,
+      "source_type": "agency page",
+      "citation": null,
+      "source_url": "https://www.mass.gov/guides/sales-and-use-tax",
+      "checked": "2026-11-08",
+      "page_url": "https://fedratecalc.com/sales-tax-calculator/massachusetts/"
+    },
+    {
+      "state": "Michigan",
+      "state_abbr": "MI",
+      "status": "pending",
+      "tax_kind": null,
+      "statewide_rate_pct": null,
+      "rate_effective_date": null,
+      "effective_note": null,
+      "local_taxes": null,
+      "caveat": null,
+      "source_type": "agency page",
+      "citation": null,
+      "source_url": "https://www.michigan.gov/taxes/business-taxes/sales-use-and-withholding-taxes",
+      "checked": null,
+      "page_url": null
+    },
+    {
+      "state": "Minnesota",
+      "state_abbr": "MN",
+      "status": "verified",
+      "tax_kind": "sales",
+      "statewide_rate_pct": 6.875,
+      "rate_effective_date": null,
+      "effective_note": null,
+      "local_taxes": "unstated",
+      "caveat": "Minnesota Statutes 297A.62 says the additional 0.375% tax expires July 1, 2034.",
+      "source_type": "statute",
+      "citation": "Minnesota Statutes 297A.62",
+      "source_url": "https://www.revisor.mn.gov/statutes/cite/297A.62",
+      "checked": "2026-11-08",
+      "page_url": "https://fedratecalc.com/sales-tax-calculator/minnesota/"
+    },
+    {
+      "state": "Mississippi",
+      "state_abbr": "MS",
+      "status": "verified",
+      "tax_kind": "sales",
+      "statewide_rate_pct": 7,
+      "rate_effective_date": null,
+      "effective_note": null,
+      "local_taxes": "unstated",
+      "caveat": null,
+      "source_type": "agency page",
+      "citation": null,
+      "source_url": "https://www.dor.ms.gov/business/sales-use-tax/sales-tax-rates",
+      "checked": "2026-11-08",
+      "page_url": "https://fedratecalc.com/sales-tax-calculator/mississippi/"
+    },
+    {
+      "state": "Missouri",
+      "state_abbr": "MO",
+      "status": "pending",
+      "tax_kind": null,
+      "statewide_rate_pct": null,
+      "rate_effective_date": null,
+      "effective_note": null,
+      "local_taxes": null,
+      "caveat": null,
+      "source_type": "agency page",
+      "citation": null,
+      "source_url": "https://dor.mo.gov/business/sales/rates/",
+      "checked": null,
+      "page_url": null
+    },
+    {
+      "state": "Montana",
+      "state_abbr": "MT",
+      "status": "verified",
+      "tax_kind": "none",
+      "statewide_rate_pct": 0,
+      "rate_effective_date": null,
+      "effective_note": null,
+      "local_taxes": "unstated",
+      "caveat": null,
+      "source_type": "agency page",
+      "citation": null,
+      "source_url": "https://revenue.mt.gov/taxes/general-sales-tax",
+      "checked": "2026-11-08",
+      "page_url": "https://fedratecalc.com/sales-tax-calculator/montana/"
+    },
+    {
+      "state": "Nebraska",
+      "state_abbr": "NE",
+      "status": "verified",
+      "tax_kind": "sales",
+      "statewide_rate_pct": 5.5,
+      "rate_effective_date": null,
+      "effective_note": null,
+      "local_taxes": "yes",
+      "caveat": null,
+      "source_type": "agency page",
+      "citation": null,
+      "source_url": "https://revenue.nebraska.gov/businesses/nebraska-sales-and-use-tax",
+      "checked": "2026-11-08",
+      "page_url": "https://fedratecalc.com/sales-tax-calculator/nebraska/"
+    },
+    {
+      "state": "Nevada",
+      "state_abbr": "NV",
+      "status": "pending",
+      "tax_kind": null,
+      "statewide_rate_pct": null,
+      "rate_effective_date": null,
+      "effective_note": null,
+      "local_taxes": null,
+      "caveat": null,
+      "source_type": "agency page",
+      "citation": null,
+      "source_url": "https://tax.nv.gov/",
+      "checked": null,
+      "page_url": null
+    },
+    {
+      "state": "New Hampshire",
+      "state_abbr": "NH",
+      "status": "pending",
+      "tax_kind": null,
+      "statewide_rate_pct": null,
+      "rate_effective_date": null,
+      "effective_note": null,
+      "local_taxes": null,
+      "caveat": null,
+      "source_type": "agency page",
+      "citation": null,
+      "source_url": "https://www.revenue.nh.gov/",
+      "checked": null,
+      "page_url": null
+    },
+    {
+      "state": "New Jersey",
+      "state_abbr": "NJ",
+      "status": "verified",
+      "tax_kind": "sales",
+      "statewide_rate_pct": 6.625,
+      "rate_effective_date": "2018-01-01",
+      "effective_note": null,
+      "local_taxes": "no",
+      "caveat": null,
+      "source_type": "agency page",
+      "citation": null,
+      "source_url": "https://www.nj.gov/treasury/taxation/salestax.shtml",
+      "checked": "2026-11-08",
+      "page_url": "https://fedratecalc.com/sales-tax-calculator/new-jersey/"
+    },
+    {
+      "state": "New Mexico",
+      "state_abbr": "NM",
+      "status": "pending",
+      "tax_kind": null,
+      "statewide_rate_pct": null,
+      "rate_effective_date": null,
+      "effective_note": null,
+      "local_taxes": null,
+      "caveat": null,
+      "source_type": "agency page",
+      "citation": null,
+      "source_url": "https://www.tax.newmexico.gov/businesses/gross-receipts-overview/",
+      "checked": null,
+      "page_url": null
+    },
+    {
+      "state": "New York",
+      "state_abbr": "NY",
+      "status": "verified",
+      "tax_kind": "sales",
+      "statewide_rate_pct": 4,
+      "rate_effective_date": null,
+      "effective_note": "Publication 718 is effective March 1, 2025.",
+      "local_taxes": "yes",
+      "caveat": null,
+      "source_type": "agency PDF",
+      "citation": "Publication 718 (2/25)",
+      "source_url": "https://www.tax.ny.gov/pdf/publications/sales/pub718.pdf",
+      "checked": "2026-11-08",
+      "page_url": "https://fedratecalc.com/sales-tax-calculator/new-york/"
+    },
+    {
+      "state": "North Carolina",
+      "state_abbr": "NC",
+      "status": "verified",
+      "tax_kind": "sales",
+      "statewide_rate_pct": 4.75,
+      "rate_effective_date": null,
+      "effective_note": null,
+      "local_taxes": "yes",
+      "caveat": null,
+      "source_type": "agency page",
+      "citation": null,
+      "source_url": "https://www.ncdor.gov/taxes-forms/sales-and-use-tax/sales-and-use-tax-rates",
+      "checked": "2026-11-08",
+      "page_url": "https://fedratecalc.com/sales-tax-calculator/north-carolina/"
+    },
+    {
+      "state": "North Dakota",
+      "state_abbr": "ND",
+      "status": "pending",
+      "tax_kind": null,
+      "statewide_rate_pct": null,
+      "rate_effective_date": null,
+      "effective_note": null,
+      "local_taxes": null,
+      "caveat": null,
+      "source_type": "agency page",
+      "citation": null,
+      "source_url": "https://www.tax.nd.gov/business/sales-and-use-tax",
+      "checked": null,
+      "page_url": null
+    },
+    {
+      "state": "Ohio",
+      "state_abbr": "OH",
+      "status": "pending",
+      "tax_kind": null,
+      "statewide_rate_pct": null,
+      "rate_effective_date": null,
+      "effective_note": null,
+      "local_taxes": null,
+      "caveat": null,
+      "source_type": "agency page",
+      "citation": null,
+      "source_url": "https://tax.ohio.gov/business/ohio-business-gateway/sales-and-use-tax",
+      "checked": null,
+      "page_url": null
+    },
+    {
+      "state": "Oklahoma",
+      "state_abbr": "OK",
+      "status": "verified",
+      "tax_kind": "sales",
+      "statewide_rate_pct": 4.5,
+      "rate_effective_date": null,
+      "effective_note": null,
+      "local_taxes": "yes",
+      "caveat": null,
+      "source_type": "agency page",
+      "citation": null,
+      "source_url": "https://oklahoma.gov/tax/businesses/sales-use-tax.html",
+      "checked": "2026-11-08",
+      "page_url": "https://fedratecalc.com/sales-tax-calculator/oklahoma/"
+    },
+    {
+      "state": "Oregon",
+      "state_abbr": "OR",
+      "status": "verified",
+      "tax_kind": "none",
+      "statewide_rate_pct": 0,
+      "rate_effective_date": null,
+      "effective_note": null,
+      "local_taxes": "unstated",
+      "caveat": null,
+      "source_type": "agency page",
+      "citation": null,
+      "source_url": "https://www.oregon.gov/dor/programs/businesses/Pages/sales-tax.aspx",
+      "checked": "2026-11-08",
+      "page_url": "https://fedratecalc.com/sales-tax-calculator/oregon/"
+    },
+    {
+      "state": "Pennsylvania",
+      "state_abbr": "PA",
+      "status": "verified",
+      "tax_kind": "sales",
+      "statewide_rate_pct": 6,
+      "rate_effective_date": null,
+      "effective_note": null,
+      "local_taxes": "yes",
+      "caveat": null,
+      "source_type": "agency page",
+      "citation": null,
+      "source_url": "https://www.pa.gov/agencies/revenue/resources/tax-types-and-information/sales-use-and-hotel-occupancy-tax",
+      "checked": "2026-11-08",
+      "page_url": "https://fedratecalc.com/sales-tax-calculator/pennsylvania/"
+    },
+    {
+      "state": "Rhode Island",
+      "state_abbr": "RI",
+      "status": "pending",
+      "tax_kind": null,
+      "statewide_rate_pct": null,
+      "rate_effective_date": null,
+      "effective_note": null,
+      "local_taxes": null,
+      "caveat": null,
+      "source_type": "agency page",
+      "citation": null,
+      "source_url": "https://tax.ri.gov/tax-sections/sales-use-tax",
+      "checked": null,
+      "page_url": null
+    },
+    {
+      "state": "South Carolina",
+      "state_abbr": "SC",
+      "status": "verified",
+      "tax_kind": "sales",
+      "statewide_rate_pct": 6,
+      "rate_effective_date": null,
+      "effective_note": null,
+      "local_taxes": "yes",
+      "caveat": null,
+      "source_type": "agency page",
+      "citation": null,
+      "source_url": "https://dor.sc.gov/sales-use-tax-index",
+      "checked": "2026-11-08",
+      "page_url": "https://fedratecalc.com/sales-tax-calculator/south-carolina/"
+    },
+    {
+      "state": "South Dakota",
+      "state_abbr": "SD",
+      "status": "verified",
+      "tax_kind": "sales",
+      "statewide_rate_pct": 4.2,
+      "rate_effective_date": null,
+      "effective_note": null,
+      "local_taxes": "unstated",
+      "caveat": null,
+      "source_type": "agency page",
+      "citation": null,
+      "source_url": "https://dor.sd.gov/businesses/taxes/sales-use-tax/",
+      "checked": "2026-11-08",
+      "page_url": "https://fedratecalc.com/sales-tax-calculator/south-dakota/"
+    },
+    {
+      "state": "Tennessee",
+      "state_abbr": "TN",
+      "status": "verified",
+      "tax_kind": "sales",
+      "statewide_rate_pct": 7,
+      "rate_effective_date": null,
+      "effective_note": null,
+      "local_taxes": "yes",
+      "caveat": null,
+      "source_type": "agency page",
+      "citation": null,
+      "source_url": "https://www.tn.gov/revenue/taxes/sales-and-use-tax.html",
+      "checked": "2026-11-08",
+      "page_url": "https://fedratecalc.com/sales-tax-calculator/tennessee/"
+    },
+    {
+      "state": "Texas",
+      "state_abbr": "TX",
+      "status": "verified",
+      "tax_kind": "sales",
+      "statewide_rate_pct": 6.25,
+      "rate_effective_date": null,
+      "effective_note": null,
+      "local_taxes": "yes",
+      "caveat": null,
+      "source_type": "agency page",
+      "citation": null,
+      "source_url": "https://comptroller.texas.gov/taxes/sales/",
+      "checked": "2026-11-08",
+      "page_url": "https://fedratecalc.com/sales-tax-calculator/texas/"
+    },
+    {
+      "state": "Utah",
+      "state_abbr": "UT",
+      "status": "verified",
+      "tax_kind": "sales",
+      "statewide_rate_pct": 4.85,
+      "rate_effective_date": null,
+      "effective_note": null,
+      "local_taxes": "yes",
+      "caveat": "Utah Code 59-12-103 also adds a supplemental state sales tax under Part 20 of that chapter when the transaction is in a city, town or unincorporated county area where the state imposes it. This calculator includes only the 4.85%; check the Utah State Tax Commission for the supplemental tax at your location.",
+      "source_type": "statute",
+      "citation": "Utah Code 59-12-103",
+      "source_url": "https://le.utah.gov/xcode/Title59/Chapter12/C59-12-S103_2026050620260701.html",
+      "checked": "2026-11-08",
+      "page_url": "https://fedratecalc.com/sales-tax-calculator/utah/"
+    },
+    {
+      "state": "Vermont",
+      "state_abbr": "VT",
+      "status": "verified",
+      "tax_kind": "sales",
+      "statewide_rate_pct": 6,
+      "rate_effective_date": null,
+      "effective_note": null,
+      "local_taxes": "unstated",
+      "caveat": null,
+      "source_type": "statute",
+      "citation": "32 V.S.A. 9771",
+      "source_url": "https://legislature.vermont.gov/statutes/section/32/233/09771",
+      "checked": "2026-11-08",
+      "page_url": "https://fedratecalc.com/sales-tax-calculator/vermont/"
+    },
+    {
+      "state": "Virginia",
+      "state_abbr": "VA",
+      "status": "verified",
+      "tax_kind": "sales",
+      "statewide_rate_pct": 4.3,
+      "rate_effective_date": null,
+      "effective_note": null,
+      "local_taxes": "unstated",
+      "caveat": "The Code of Virginia prints this section twice. This calculator uses the 4.3% version, headed “(Contingent expiration date)”; a second version, headed “(Contingent effective date)”, states four percent beginning on and after August 1, 2004. The text we read does not say which version is in force, so confirm with the Virginia Department of Taxation.",
+      "source_type": "statute",
+      "citation": "Code of Virginia 58.1-603",
+      "source_url": "https://law.lis.virginia.gov/vacode/title58.1/chapter6/section58.1-603/",
+      "checked": "2026-11-08",
+      "page_url": "https://fedratecalc.com/sales-tax-calculator/virginia/"
+    },
+    {
+      "state": "Washington",
+      "state_abbr": "WA",
+      "status": "verified",
+      "tax_kind": "sales",
+      "statewide_rate_pct": 6.5,
+      "rate_effective_date": null,
+      "effective_note": null,
+      "local_taxes": "yes",
+      "caveat": null,
+      "source_type": "agency page",
+      "citation": null,
+      "source_url": "https://dor.wa.gov/taxes-rates/retail-sales-tax",
+      "checked": "2026-11-08",
+      "page_url": "https://fedratecalc.com/sales-tax-calculator/washington/"
+    },
+    {
+      "state": "West Virginia",
+      "state_abbr": "WV",
+      "status": "verified",
+      "tax_kind": "sales",
+      "statewide_rate_pct": 6,
+      "rate_effective_date": null,
+      "effective_note": null,
+      "local_taxes": "yes",
+      "caveat": null,
+      "source_type": "agency page",
+      "citation": null,
+      "source_url": "https://tax.wv.gov/Business/SalesAndUseTax/Pages/SalesAndUseTax.aspx",
+      "checked": "2026-11-08",
+      "page_url": "https://fedratecalc.com/sales-tax-calculator/west-virginia/"
+    },
+    {
+      "state": "Wisconsin",
+      "state_abbr": "WI",
+      "status": "verified",
+      "tax_kind": "sales",
+      "statewide_rate_pct": 5,
+      "rate_effective_date": null,
+      "effective_note": null,
+      "local_taxes": "yes",
+      "caveat": null,
+      "source_type": "agency page",
+      "citation": null,
+      "source_url": "https://www.revenue.wi.gov/Pages/FAQS/pcs-taxrates.aspx",
+      "checked": "2026-11-08",
+      "page_url": "https://fedratecalc.com/sales-tax-calculator/wisconsin/"
+    },
+    {
+      "state": "Wyoming",
+      "state_abbr": "WY",
+      "status": "verified",
+      "tax_kind": "sales",
+      "statewide_rate_pct": 4,
+      "rate_effective_date": "1993-07-01",
+      "effective_note": null,
+      "local_taxes": "unstated",
+      "caveat": null,
+      "source_type": "statute",
+      "citation": "W.S. 39-15-104",
+      "source_url": "https://wyoleg.gov/statutes/compress/title39.pdf",
+      "checked": "2026-11-08",
+      "page_url": "https://fedratecalc.com/sales-tax-calculator/wyoming/"
+    }
+  ]
+}

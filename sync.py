@@ -58,9 +58,9 @@ def main(repo: Path):
     lines = [
         "# FedRateCalc open data",
         "",
-        "U.S. federal rate, calendar and holiday data in CSV, JSON and ICS, mirrored from the "
+        "U.S. federal rate, calendar, holiday, wage, sales tax and electricity price data in CSV, JSON and ICS, mirrored from the "
         f"[FedRateCalc open data hub]({BASE}/data/). Each dataset is generated from official sources (Federal Reserve "
-        "Board, BLS, BEA, OPM, state labor departments) and checked on the date shown on its page.",
+        "Board, BLS, BEA, OPM, EIA, state labor and tax departments) and checked on the date shown on its page.",
         "",
         f"Synced from {BASE}/data/ on {today}. The website is the canonical, most current copy; "
         "this repository is a convenience mirror.",
@@ -87,7 +87,7 @@ def main(repo: Path):
         "## Updates",
         "",
         "Files are refreshed from the website when the underlying data changes (for example after an FOMC meeting "
-        "or a new release calendar). Corrections: open an issue, or see the source links on each dataset page.",
+        "or a new release calendar, a state sales tax rate, or a new EIA electricity price month). Corrections: open an issue, or see the source links on each dataset page.",
         "",
     ]
     (repo / "README.md").write_text("\n".join(lines))
@@ -104,7 +104,7 @@ def main(repo: Path):
         "license: CC-BY-4.0\n"
         f"date-released: \"{today}\"\n"
         "keywords:\n"
-        "  - fomc\n  - federal funds rate\n  - economic calendar\n  - federal holidays\n  - minimum wage\n"
+        "  - fomc\n  - federal funds rate\n  - economic calendar\n  - federal holidays\n  - minimum wage\n  - sales tax\n  - electricity rates\n"
     )
     (repo / "sync.py").write_text(Path(__file__).read_text())
     print(f"files {len(files)}, datasets {len(datasets)}")

@@ -7,10 +7,12 @@ authors:
 url: "https://fedratecalc.com/data/"
 repository-code: "https://github.com/ArchieR7/fedratecalc-open-data"
 license: CC-BY-4.0
-date-released: "2026-11-08"
+date-released: "2026-11-09"
 keywords:
   - fomc
   - federal funds rate
   - economic calendar
   - federal holidays
   - minimum wage
+  - sales tax
+  - electricity rates
