@@ -91,14 +91,7 @@ def main(repo: Path):
         "",
     ]
     (repo / "README.md").write_text("\n".join(lines))
-    (repo / "LICENSE").write_text(
-        "Creative Commons Attribution 4.0 International (CC BY 4.0)\n\n"
-        "Copyright (c) FedRateCalc (https://fedratecalc.com)\n\n"
-        "You are free to share and adapt these datasets for any purpose, including commercially, provided you give\n"
-        "appropriate credit to FedRateCalc with a link to https://fedratecalc.com/data/, indicate if changes were made,\n"
-        "and do not suggest endorsement. Full legal code: https://creativecommons.org/licenses/by/4.0/legalcode\n\n"
-        "The underlying U.S. federal government figures are works of the U.S. government and are in the public domain.\n"
-    )
+    # LICENSE holds the official CC BY 4.0 legal code (so GitHub detects it); never overwritten here.
     (repo / "CITATION.cff").write_text(
         "cff-version: 1.2.0\n"
         "message: \"If you use these datasets, please cite FedRateCalc and link to the open data hub.\"\n"
