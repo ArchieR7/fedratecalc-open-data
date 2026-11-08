@@ -1,0 +1,445 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//FedRateCalc//Open Data//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:U.S. federal holidays 2026-2028 with observed dates
+X-WR-CALDESC:U.S. federal holidays 2026-2028 with observed dates. Source: U
+ .S. Office of Personnel Management: Federal Holidays (https://www.opm.gov/
+ policy-data-oversight/pay-leave/federal-holidays/)\; 5 U.S.C. 6103: Holida
+ ys (Cornell Legal Information Institute) (https://www.law.cornell.edu/usco
+ de/text/5/6103). Compiled by FedRateCalc\, CC BY 4.0 (https://creativecomm
+ ons.org/licenses/by/4.0/)\, attribution "FedRateCalc". Generated 2026-11-0
+ 5\, data as of 2026-10-25. https://fedratecalc.com/data/us-federal-holiday
+ s-2026-2028/
+BEGIN:VEVENT
+UID:holiday-2026-new-year-s-day@fedratecalc.com
+DTSTAMP:20261105T000000Z
+DTSTART;VALUE=DATE:20260101
+DTEND;VALUE=DATE:20260102
+SUMMARY:New Year's Day
+DESCRIPTION:New Year's Day 2026 falls on Thursday\, January 1\, 2026. Sourc
+ e: https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/. 
+ FedRateCalc\, CC BY 4.0\, https://fedratecalc.com/data/us-federal-holidays
+ -2026-2028/
+TRANSP:TRANSPARENT
+URL:https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/
+END:VEVENT
+BEGIN:VEVENT
+UID:holiday-2026-birthday-of-martin-luther-king-jr@fedratecalc.com
+DTSTAMP:20261105T000000Z
+DTSTART;VALUE=DATE:20260119
+DTEND;VALUE=DATE:20260120
+SUMMARY:Birthday of Martin Luther King\, Jr.
+DESCRIPTION:Birthday of Martin Luther King\, Jr. 2026 falls on Monday\, Jan
+ uary 19\, 2026. Source: https://www.opm.gov/policy-data-oversight/pay-leav
+ e/federal-holidays/. FedRateCalc\, CC BY 4.0\, https://fedratecalc.com/dat
+ a/us-federal-holidays-2026-2028/
+TRANSP:TRANSPARENT
+URL:https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/
+END:VEVENT
+BEGIN:VEVENT
+UID:holiday-2026-washington-s-birthday@fedratecalc.com
+DTSTAMP:20261105T000000Z
+DTSTART;VALUE=DATE:20260216
+DTEND;VALUE=DATE:20260217
+SUMMARY:Washington's Birthday
+DESCRIPTION:Washington's Birthday 2026 falls on Monday\, February 16\, 2026
+ . Source: https://www.opm.gov/policy-data-oversight/pay-leave/federal-holi
+ days/. FedRateCalc\, CC BY 4.0\, https://fedratecalc.com/data/us-federal-h
+ olidays-2026-2028/
+TRANSP:TRANSPARENT
+URL:https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/
+END:VEVENT
+BEGIN:VEVENT
+UID:holiday-2026-memorial-day@fedratecalc.com
+DTSTAMP:20261105T000000Z
+DTSTART;VALUE=DATE:20260525
+DTEND;VALUE=DATE:20260526
+SUMMARY:Memorial Day
+DESCRIPTION:Memorial Day 2026 falls on Monday\, May 25\, 2026. Source: http
+ s://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/. FedRate
+ Calc\, CC BY 4.0\, https://fedratecalc.com/data/us-federal-holidays-2026-2
+ 028/
+TRANSP:TRANSPARENT
+URL:https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/
+END:VEVENT
+BEGIN:VEVENT
+UID:holiday-2026-juneteenth-national-independence-day@fedratecalc.com
+DTSTAMP:20261105T000000Z
+DTSTART;VALUE=DATE:20260619
+DTEND;VALUE=DATE:20260620
+SUMMARY:Juneteenth National Independence Day
+DESCRIPTION:Juneteenth National Independence Day 2026 falls on Friday\, Jun
+ e 19\, 2026. Source: https://www.opm.gov/policy-data-oversight/pay-leave/f
+ ederal-holidays/. FedRateCalc\, CC BY 4.0\, https://fedratecalc.com/data/u
+ s-federal-holidays-2026-2028/
+TRANSP:TRANSPARENT
+URL:https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/
+END:VEVENT
+BEGIN:VEVENT
+UID:holiday-2026-independence-day@fedratecalc.com
+DTSTAMP:20261105T000000Z
+DTSTART;VALUE=DATE:20260703
+DTEND;VALUE=DATE:20260704
+SUMMARY:Independence Day (observed)
+DESCRIPTION:Independence Day 2026 falls on Saturday\, July 4\, 2026\; feder
+ al employees observe it on Friday\, July 3\, 2026. Source: https://www.opm
+ .gov/policy-data-oversight/pay-leave/federal-holidays/. FedRateCalc\, CC B
+ Y 4.0\, https://fedratecalc.com/data/us-federal-holidays-2026-2028/
+TRANSP:TRANSPARENT
+URL:https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/
+END:VEVENT
+BEGIN:VEVENT
+UID:holiday-2026-labor-day@fedratecalc.com
+DTSTAMP:20261105T000000Z
+DTSTART;VALUE=DATE:20260907
+DTEND;VALUE=DATE:20260908
+SUMMARY:Labor Day
+DESCRIPTION:Labor Day 2026 falls on Monday\, September 7\, 2026. Source: ht
+ tps://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/. FedRa
+ teCalc\, CC BY 4.0\, https://fedratecalc.com/data/us-federal-holidays-2026
+ -2028/
+TRANSP:TRANSPARENT
+URL:https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/
+END:VEVENT
+BEGIN:VEVENT
+UID:holiday-2026-columbus-day@fedratecalc.com
+DTSTAMP:20261105T000000Z
+DTSTART;VALUE=DATE:20261012
+DTEND;VALUE=DATE:20261013
+SUMMARY:Columbus Day
+DESCRIPTION:Columbus Day 2026 falls on Monday\, October 12\, 2026. Source: 
+ https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/. Fed
+ RateCalc\, CC BY 4.0\, https://fedratecalc.com/data/us-federal-holidays-20
+ 26-2028/
+TRANSP:TRANSPARENT
+URL:https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/
+END:VEVENT
+BEGIN:VEVENT
+UID:holiday-2026-veterans-day@fedratecalc.com
+DTSTAMP:20261105T000000Z
+DTSTART;VALUE=DATE:20261111
+DTEND;VALUE=DATE:20261112
+SUMMARY:Veterans Day
+DESCRIPTION:Veterans Day 2026 falls on Wednesday\, November 11\, 2026. Sour
+ ce: https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/.
+  FedRateCalc\, CC BY 4.0\, https://fedratecalc.com/data/us-federal-holiday
+ s-2026-2028/
+TRANSP:TRANSPARENT
+URL:https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/
+END:VEVENT
+BEGIN:VEVENT
+UID:holiday-2026-thanksgiving-day@fedratecalc.com
+DTSTAMP:20261105T000000Z
+DTSTART;VALUE=DATE:20261126
+DTEND;VALUE=DATE:20261127
+SUMMARY:Thanksgiving Day
+DESCRIPTION:Thanksgiving Day 2026 falls on Thursday\, November 26\, 2026. S
+ ource: https://www.opm.gov/policy-data-oversight/pay-leave/federal-holiday
+ s/. FedRateCalc\, CC BY 4.0\, https://fedratecalc.com/data/us-federal-holi
+ days-2026-2028/
+TRANSP:TRANSPARENT
+URL:https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/
+END:VEVENT
+BEGIN:VEVENT
+UID:holiday-2026-christmas-day@fedratecalc.com
+DTSTAMP:20261105T000000Z
+DTSTART;VALUE=DATE:20261225
+DTEND;VALUE=DATE:20261226
+SUMMARY:Christmas Day
+DESCRIPTION:Christmas Day 2026 falls on Friday\, December 25\, 2026. Source
+ : https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/. F
+ edRateCalc\, CC BY 4.0\, https://fedratecalc.com/data/us-federal-holidays-
+ 2026-2028/
+TRANSP:TRANSPARENT
+URL:https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/
+END:VEVENT
+BEGIN:VEVENT
+UID:holiday-2027-new-year-s-day@fedratecalc.com
+DTSTAMP:20261105T000000Z
+DTSTART;VALUE=DATE:20270101
+DTEND;VALUE=DATE:20270102
+SUMMARY:New Year's Day
+DESCRIPTION:New Year's Day 2027 falls on Friday\, January 1\, 2027. Source:
+  https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/. Fe
+ dRateCalc\, CC BY 4.0\, https://fedratecalc.com/data/us-federal-holidays-2
+ 026-2028/
+TRANSP:TRANSPARENT
+URL:https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/
+END:VEVENT
+BEGIN:VEVENT
+UID:holiday-2027-birthday-of-martin-luther-king-jr@fedratecalc.com
+DTSTAMP:20261105T000000Z
+DTSTART;VALUE=DATE:20270118
+DTEND;VALUE=DATE:20270119
+SUMMARY:Birthday of Martin Luther King\, Jr.
+DESCRIPTION:Birthday of Martin Luther King\, Jr. 2027 falls on Monday\, Jan
+ uary 18\, 2027. Source: https://www.opm.gov/policy-data-oversight/pay-leav
+ e/federal-holidays/. FedRateCalc\, CC BY 4.0\, https://fedratecalc.com/dat
+ a/us-federal-holidays-2026-2028/
+TRANSP:TRANSPARENT
+URL:https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/
+END:VEVENT
+BEGIN:VEVENT
+UID:holiday-2027-washington-s-birthday@fedratecalc.com
+DTSTAMP:20261105T000000Z
+DTSTART;VALUE=DATE:20270215
+DTEND;VALUE=DATE:20270216
+SUMMARY:Washington's Birthday
+DESCRIPTION:Washington's Birthday 2027 falls on Monday\, February 15\, 2027
+ . Source: https://www.opm.gov/policy-data-oversight/pay-leave/federal-holi
+ days/. FedRateCalc\, CC BY 4.0\, https://fedratecalc.com/data/us-federal-h
+ olidays-2026-2028/
+TRANSP:TRANSPARENT
+URL:https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/
+END:VEVENT
+BEGIN:VEVENT
+UID:holiday-2027-memorial-day@fedratecalc.com
+DTSTAMP:20261105T000000Z
+DTSTART;VALUE=DATE:20270531
+DTEND;VALUE=DATE:20270601
+SUMMARY:Memorial Day
+DESCRIPTION:Memorial Day 2027 falls on Monday\, May 31\, 2027. Source: http
+ s://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/. FedRate
+ Calc\, CC BY 4.0\, https://fedratecalc.com/data/us-federal-holidays-2026-2
+ 028/
+TRANSP:TRANSPARENT
+URL:https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/
+END:VEVENT
+BEGIN:VEVENT
+UID:holiday-2027-juneteenth-national-independence-day@fedratecalc.com
+DTSTAMP:20261105T000000Z
+DTSTART;VALUE=DATE:20270618
+DTEND;VALUE=DATE:20270619
+SUMMARY:Juneteenth National Independence Day (observed)
+DESCRIPTION:Juneteenth National Independence Day 2027 falls on Saturday\, J
+ une 19\, 2027\; federal employees observe it on Friday\, June 18\, 2027. S
+ ource: https://www.opm.gov/policy-data-oversight/pay-leave/federal-holiday
+ s/. FedRateCalc\, CC BY 4.0\, https://fedratecalc.com/data/us-federal-holi
+ days-2026-2028/
+TRANSP:TRANSPARENT
+URL:https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/
+END:VEVENT
+BEGIN:VEVENT
+UID:holiday-2027-independence-day@fedratecalc.com
+DTSTAMP:20261105T000000Z
+DTSTART;VALUE=DATE:20270705
+DTEND;VALUE=DATE:20270706
+SUMMARY:Independence Day (observed)
+DESCRIPTION:Independence Day 2027 falls on Sunday\, July 4\, 2027\; federal
+  employees observe it on Monday\, July 5\, 2027. Source: https://www.opm.g
+ ov/policy-data-oversight/pay-leave/federal-holidays/. FedRateCalc\, CC BY 
+ 4.0\, https://fedratecalc.com/data/us-federal-holidays-2026-2028/
+TRANSP:TRANSPARENT
+URL:https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/
+END:VEVENT
+BEGIN:VEVENT
+UID:holiday-2027-labor-day@fedratecalc.com
+DTSTAMP:20261105T000000Z
+DTSTART;VALUE=DATE:20270906
+DTEND;VALUE=DATE:20270907
+SUMMARY:Labor Day
+DESCRIPTION:Labor Day 2027 falls on Monday\, September 6\, 2027. Source: ht
+ tps://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/. FedRa
+ teCalc\, CC BY 4.0\, https://fedratecalc.com/data/us-federal-holidays-2026
+ -2028/
+TRANSP:TRANSPARENT
+URL:https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/
+END:VEVENT
+BEGIN:VEVENT
+UID:holiday-2027-columbus-day@fedratecalc.com
+DTSTAMP:20261105T000000Z
+DTSTART;VALUE=DATE:20271011
+DTEND;VALUE=DATE:20271012
+SUMMARY:Columbus Day
+DESCRIPTION:Columbus Day 2027 falls on Monday\, October 11\, 2027. Source: 
+ https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/. Fed
+ RateCalc\, CC BY 4.0\, https://fedratecalc.com/data/us-federal-holidays-20
+ 26-2028/
+TRANSP:TRANSPARENT
+URL:https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/
+END:VEVENT
+BEGIN:VEVENT
+UID:holiday-2027-veterans-day@fedratecalc.com
+DTSTAMP:20261105T000000Z
+DTSTART;VALUE=DATE:20271111
+DTEND;VALUE=DATE:20271112
+SUMMARY:Veterans Day
+DESCRIPTION:Veterans Day 2027 falls on Thursday\, November 11\, 2027. Sourc
+ e: https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/. 
+ FedRateCalc\, CC BY 4.0\, https://fedratecalc.com/data/us-federal-holidays
+ -2026-2028/
+TRANSP:TRANSPARENT
+URL:https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/
+END:VEVENT
+BEGIN:VEVENT
+UID:holiday-2027-thanksgiving-day@fedratecalc.com
+DTSTAMP:20261105T000000Z
+DTSTART;VALUE=DATE:20271125
+DTEND;VALUE=DATE:20271126
+SUMMARY:Thanksgiving Day
+DESCRIPTION:Thanksgiving Day 2027 falls on Thursday\, November 25\, 2027. S
+ ource: https://www.opm.gov/policy-data-oversight/pay-leave/federal-holiday
+ s/. FedRateCalc\, CC BY 4.0\, https://fedratecalc.com/data/us-federal-holi
+ days-2026-2028/
+TRANSP:TRANSPARENT
+URL:https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/
+END:VEVENT
+BEGIN:VEVENT
+UID:holiday-2027-christmas-day@fedratecalc.com
+DTSTAMP:20261105T000000Z
+DTSTART;VALUE=DATE:20271224
+DTEND;VALUE=DATE:20271225
+SUMMARY:Christmas Day (observed)
+DESCRIPTION:Christmas Day 2027 falls on Saturday\, December 25\, 2027\; fed
+ eral employees observe it on Friday\, December 24\, 2027. Source: https://
+ www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/. FedRateCalc
+ \, CC BY 4.0\, https://fedratecalc.com/data/us-federal-holidays-2026-2028/
+TRANSP:TRANSPARENT
+URL:https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/
+END:VEVENT
+BEGIN:VEVENT
+UID:holiday-2028-new-year-s-day@fedratecalc.com
+DTSTAMP:20261105T000000Z
+DTSTART;VALUE=DATE:20271231
+DTEND;VALUE=DATE:20280101
+SUMMARY:New Year's Day (observed)
+DESCRIPTION:New Year's Day 2028 falls on Saturday\, January 1\, 2028\; fede
+ ral employees observe it on Friday\, December 31\, 2027. Source: https://w
+ ww.opm.gov/policy-data-oversight/pay-leave/federal-holidays/. FedRateCalc\
+ , CC BY 4.0\, https://fedratecalc.com/data/us-federal-holidays-2026-2028/
+TRANSP:TRANSPARENT
+URL:https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/
+END:VEVENT
+BEGIN:VEVENT
+UID:holiday-2028-birthday-of-martin-luther-king-jr@fedratecalc.com
+DTSTAMP:20261105T000000Z
+DTSTART;VALUE=DATE:20280117
+DTEND;VALUE=DATE:20280118
+SUMMARY:Birthday of Martin Luther King\, Jr.
+DESCRIPTION:Birthday of Martin Luther King\, Jr. 2028 falls on Monday\, Jan
+ uary 17\, 2028. Source: https://www.opm.gov/policy-data-oversight/pay-leav
+ e/federal-holidays/. FedRateCalc\, CC BY 4.0\, https://fedratecalc.com/dat
+ a/us-federal-holidays-2026-2028/
+TRANSP:TRANSPARENT
+URL:https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/
+END:VEVENT
+BEGIN:VEVENT
+UID:holiday-2028-washington-s-birthday@fedratecalc.com
+DTSTAMP:20261105T000000Z
+DTSTART;VALUE=DATE:20280221
+DTEND;VALUE=DATE:20280222
+SUMMARY:Washington's Birthday
+DESCRIPTION:Washington's Birthday 2028 falls on Monday\, February 21\, 2028
+ . Source: https://www.opm.gov/policy-data-oversight/pay-leave/federal-holi
+ days/. FedRateCalc\, CC BY 4.0\, https://fedratecalc.com/data/us-federal-h
+ olidays-2026-2028/
+TRANSP:TRANSPARENT
+URL:https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/
+END:VEVENT
+BEGIN:VEVENT
+UID:holiday-2028-memorial-day@fedratecalc.com
+DTSTAMP:20261105T000000Z
+DTSTART;VALUE=DATE:20280529
+DTEND;VALUE=DATE:20280530
+SUMMARY:Memorial Day
+DESCRIPTION:Memorial Day 2028 falls on Monday\, May 29\, 2028. Source: http
+ s://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/. FedRate
+ Calc\, CC BY 4.0\, https://fedratecalc.com/data/us-federal-holidays-2026-2
+ 028/
+TRANSP:TRANSPARENT
+URL:https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/
+END:VEVENT
+BEGIN:VEVENT
+UID:holiday-2028-juneteenth-national-independence-day@fedratecalc.com
+DTSTAMP:20261105T000000Z
+DTSTART;VALUE=DATE:20280619
+DTEND;VALUE=DATE:20280620
+SUMMARY:Juneteenth National Independence Day
+DESCRIPTION:Juneteenth National Independence Day 2028 falls on Monday\, Jun
+ e 19\, 2028. Source: https://www.opm.gov/policy-data-oversight/pay-leave/f
+ ederal-holidays/. FedRateCalc\, CC BY 4.0\, https://fedratecalc.com/data/u
+ s-federal-holidays-2026-2028/
+TRANSP:TRANSPARENT
+URL:https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/
+END:VEVENT
+BEGIN:VEVENT
+UID:holiday-2028-independence-day@fedratecalc.com
+DTSTAMP:20261105T000000Z
+DTSTART;VALUE=DATE:20280704
+DTEND;VALUE=DATE:20280705
+SUMMARY:Independence Day
+DESCRIPTION:Independence Day 2028 falls on Tuesday\, July 4\, 2028. Source:
+  https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/. Fe
+ dRateCalc\, CC BY 4.0\, https://fedratecalc.com/data/us-federal-holidays-2
+ 026-2028/
+TRANSP:TRANSPARENT
+URL:https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/
+END:VEVENT
+BEGIN:VEVENT
+UID:holiday-2028-labor-day@fedratecalc.com
+DTSTAMP:20261105T000000Z
+DTSTART;VALUE=DATE:20280904
+DTEND;VALUE=DATE:20280905
+SUMMARY:Labor Day
+DESCRIPTION:Labor Day 2028 falls on Monday\, September 4\, 2028. Source: ht
+ tps://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/. FedRa
+ teCalc\, CC BY 4.0\, https://fedratecalc.com/data/us-federal-holidays-2026
+ -2028/
+TRANSP:TRANSPARENT
+URL:https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/
+END:VEVENT
+BEGIN:VEVENT
+UID:holiday-2028-columbus-day@fedratecalc.com
+DTSTAMP:20261105T000000Z
+DTSTART;VALUE=DATE:20281009
+DTEND;VALUE=DATE:20281010
+SUMMARY:Columbus Day
+DESCRIPTION:Columbus Day 2028 falls on Monday\, October 9\, 2028. Source: h
+ ttps://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/. FedR
+ ateCalc\, CC BY 4.0\, https://fedratecalc.com/data/us-federal-holidays-202
+ 6-2028/
+TRANSP:TRANSPARENT
+URL:https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/
+END:VEVENT
+BEGIN:VEVENT
+UID:holiday-2028-veterans-day@fedratecalc.com
+DTSTAMP:20261105T000000Z
+DTSTART;VALUE=DATE:20281110
+DTEND;VALUE=DATE:20281111
+SUMMARY:Veterans Day (observed)
+DESCRIPTION:Veterans Day 2028 falls on Saturday\, November 11\, 2028\; fede
+ ral employees observe it on Friday\, November 10\, 2028. Source: https://w
+ ww.opm.gov/policy-data-oversight/pay-leave/federal-holidays/. FedRateCalc\
+ , CC BY 4.0\, https://fedratecalc.com/data/us-federal-holidays-2026-2028/
+TRANSP:TRANSPARENT
+URL:https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/
+END:VEVENT
+BEGIN:VEVENT
+UID:holiday-2028-thanksgiving-day@fedratecalc.com
+DTSTAMP:20261105T000000Z
+DTSTART;VALUE=DATE:20281123
+DTEND;VALUE=DATE:20281124
+SUMMARY:Thanksgiving Day
+DESCRIPTION:Thanksgiving Day 2028 falls on Thursday\, November 23\, 2028. S
+ ource: https://www.opm.gov/policy-data-oversight/pay-leave/federal-holiday
+ s/. FedRateCalc\, CC BY 4.0\, https://fedratecalc.com/data/us-federal-holi
+ days-2026-2028/
+TRANSP:TRANSPARENT
+URL:https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/
+END:VEVENT
+BEGIN:VEVENT
+UID:holiday-2028-christmas-day@fedratecalc.com
+DTSTAMP:20261105T000000Z
+DTSTART;VALUE=DATE:20281225
+DTEND;VALUE=DATE:20281226
+SUMMARY:Christmas Day
+DESCRIPTION:Christmas Day 2028 falls on Monday\, December 25\, 2028. Source
+ : https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/. F
+ edRateCalc\, CC BY 4.0\, https://fedratecalc.com/data/us-federal-holidays-
+ 2026-2028/
+TRANSP:TRANSPARENT
+URL:https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/
+END:VEVENT
+END:VCALENDAR

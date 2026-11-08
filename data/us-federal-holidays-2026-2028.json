@@ -1,0 +1,398 @@
+{
+  "metadata": {
+    "name": "U.S. federal holidays 2026-2028 with observed dates",
+    "description": "The 11 public holidays of 5 U.S.C. 6103(a) for 2026, 2027 and 2028: the legal date, the day federal employees observe it (OPM: Friday for a Saturday holiday, Monday for a Sunday holiday) and the rule that applies. The ICS file puts an all-day event on each observed date. Federal offices, USPS, banks and markets follow their own holiday calendars, which are not part of this dataset.",
+    "url": "https://fedratecalc.com/data/us-federal-holidays-2026-2028/",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "licenseName": "CC BY 4.0",
+    "attribution": "FedRateCalc",
+    "attributionText": "FedRateCalc (https://fedratecalc.com/data/us-federal-holidays-2026-2028/), CC BY 4.0",
+    "sources": [
+      {
+        "label": "U.S. Office of Personnel Management: Federal Holidays",
+        "href": "https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/"
+      },
+      {
+        "label": "5 U.S.C. 6103: Holidays (Cornell Legal Information Institute)",
+        "href": "https://www.law.cornell.edu/uscode/text/5/6103"
+      }
+    ],
+    "generated": "2026-11-05",
+    "dataAsOf": "2026-10-25",
+    "temporalCoverage": "2026-01-01/2028-12-25",
+    "columns": [
+      {
+        "name": "year",
+        "type": "integer",
+        "meaning": "Year of the legal date."
+      },
+      {
+        "name": "holiday",
+        "type": "string",
+        "meaning": "Name of the holiday as in 5 U.S.C. 6103(a)."
+      },
+      {
+        "name": "legal_date",
+        "type": "date",
+        "meaning": "Calendar date of the holiday (YYYY-MM-DD)."
+      },
+      {
+        "name": "legal_weekday",
+        "type": "string",
+        "meaning": "Weekday of the legal date."
+      },
+      {
+        "name": "observed_date",
+        "type": "date",
+        "meaning": "The day treated as the holiday for most federal employees (YYYY-MM-DD)."
+      },
+      {
+        "name": "observed_weekday",
+        "type": "string",
+        "meaning": "Weekday of the observed date."
+      },
+      {
+        "name": "observed_rule",
+        "type": "enum",
+        "meaning": "same-day, saturday-to-friday or sunday-to-monday."
+      },
+      {
+        "name": "source_url",
+        "type": "string",
+        "meaning": "OPM's federal holidays page."
+      }
+    ]
+  },
+  "rows": [
+    {
+      "year": 2026,
+      "holiday": "New Year's Day",
+      "legal_date": "2026-01-01",
+      "legal_weekday": "Thursday",
+      "observed_date": "2026-01-01",
+      "observed_weekday": "Thursday",
+      "observed_rule": "same-day",
+      "source_url": "https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/"
+    },
+    {
+      "year": 2026,
+      "holiday": "Birthday of Martin Luther King, Jr.",
+      "legal_date": "2026-01-19",
+      "legal_weekday": "Monday",
+      "observed_date": "2026-01-19",
+      "observed_weekday": "Monday",
+      "observed_rule": "same-day",
+      "source_url": "https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/"
+    },
+    {
+      "year": 2026,
+      "holiday": "Washington's Birthday",
+      "legal_date": "2026-02-16",
+      "legal_weekday": "Monday",
+      "observed_date": "2026-02-16",
+      "observed_weekday": "Monday",
+      "observed_rule": "same-day",
+      "source_url": "https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/"
+    },
+    {
+      "year": 2026,
+      "holiday": "Memorial Day",
+      "legal_date": "2026-05-25",
+      "legal_weekday": "Monday",
+      "observed_date": "2026-05-25",
+      "observed_weekday": "Monday",
+      "observed_rule": "same-day",
+      "source_url": "https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/"
+    },
+    {
+      "year": 2026,
+      "holiday": "Juneteenth National Independence Day",
+      "legal_date": "2026-06-19",
+      "legal_weekday": "Friday",
+      "observed_date": "2026-06-19",
+      "observed_weekday": "Friday",
+      "observed_rule": "same-day",
+      "source_url": "https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/"
+    },
+    {
+      "year": 2026,
+      "holiday": "Independence Day",
+      "legal_date": "2026-07-04",
+      "legal_weekday": "Saturday",
+      "observed_date": "2026-07-03",
+      "observed_weekday": "Friday",
+      "observed_rule": "saturday-to-friday",
+      "source_url": "https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/"
+    },
+    {
+      "year": 2026,
+      "holiday": "Labor Day",
+      "legal_date": "2026-09-07",
+      "legal_weekday": "Monday",
+      "observed_date": "2026-09-07",
+      "observed_weekday": "Monday",
+      "observed_rule": "same-day",
+      "source_url": "https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/"
+    },
+    {
+      "year": 2026,
+      "holiday": "Columbus Day",
+      "legal_date": "2026-10-12",
+      "legal_weekday": "Monday",
+      "observed_date": "2026-10-12",
+      "observed_weekday": "Monday",
+      "observed_rule": "same-day",
+      "source_url": "https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/"
+    },
+    {
+      "year": 2026,
+      "holiday": "Veterans Day",
+      "legal_date": "2026-11-11",
+      "legal_weekday": "Wednesday",
+      "observed_date": "2026-11-11",
+      "observed_weekday": "Wednesday",
+      "observed_rule": "same-day",
+      "source_url": "https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/"
+    },
+    {
+      "year": 2026,
+      "holiday": "Thanksgiving Day",
+      "legal_date": "2026-11-26",
+      "legal_weekday": "Thursday",
+      "observed_date": "2026-11-26",
+      "observed_weekday": "Thursday",
+      "observed_rule": "same-day",
+      "source_url": "https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/"
+    },
+    {
+      "year": 2026,
+      "holiday": "Christmas Day",
+      "legal_date": "2026-12-25",
+      "legal_weekday": "Friday",
+      "observed_date": "2026-12-25",
+      "observed_weekday": "Friday",
+      "observed_rule": "same-day",
+      "source_url": "https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/"
+    },
+    {
+      "year": 2027,
+      "holiday": "New Year's Day",
+      "legal_date": "2027-01-01",
+      "legal_weekday": "Friday",
+      "observed_date": "2027-01-01",
+      "observed_weekday": "Friday",
+      "observed_rule": "same-day",
+      "source_url": "https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/"
+    },
+    {
+      "year": 2027,
+      "holiday": "Birthday of Martin Luther King, Jr.",
+      "legal_date": "2027-01-18",
+      "legal_weekday": "Monday",
+      "observed_date": "2027-01-18",
+      "observed_weekday": "Monday",
+      "observed_rule": "same-day",
+      "source_url": "https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/"
+    },
+    {
+      "year": 2027,
+      "holiday": "Washington's Birthday",
+      "legal_date": "2027-02-15",
+      "legal_weekday": "Monday",
+      "observed_date": "2027-02-15",
+      "observed_weekday": "Monday",
+      "observed_rule": "same-day",
+      "source_url": "https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/"
+    },
+    {
+      "year": 2027,
+      "holiday": "Memorial Day",
+      "legal_date": "2027-05-31",
+      "legal_weekday": "Monday",
+      "observed_date": "2027-05-31",
+      "observed_weekday": "Monday",
+      "observed_rule": "same-day",
+      "source_url": "https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/"
+    },
+    {
+      "year": 2027,
+      "holiday": "Juneteenth National Independence Day",
+      "legal_date": "2027-06-19",
+      "legal_weekday": "Saturday",
+      "observed_date": "2027-06-18",
+      "observed_weekday": "Friday",
+      "observed_rule": "saturday-to-friday",
+      "source_url": "https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/"
+    },
+    {
+      "year": 2027,
+      "holiday": "Independence Day",
+      "legal_date": "2027-07-04",
+      "legal_weekday": "Sunday",
+      "observed_date": "2027-07-05",
+      "observed_weekday": "Monday",
+      "observed_rule": "sunday-to-monday",
+      "source_url": "https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/"
+    },
+    {
+      "year": 2027,
+      "holiday": "Labor Day",
+      "legal_date": "2027-09-06",
+      "legal_weekday": "Monday",
+      "observed_date": "2027-09-06",
+      "observed_weekday": "Monday",
+      "observed_rule": "same-day",
+      "source_url": "https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/"
+    },
+    {
+      "year": 2027,
+      "holiday": "Columbus Day",
+      "legal_date": "2027-10-11",
+      "legal_weekday": "Monday",
+      "observed_date": "2027-10-11",
+      "observed_weekday": "Monday",
+      "observed_rule": "same-day",
+      "source_url": "https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/"
+    },
+    {
+      "year": 2027,
+      "holiday": "Veterans Day",
+      "legal_date": "2027-11-11",
+      "legal_weekday": "Thursday",
+      "observed_date": "2027-11-11",
+      "observed_weekday": "Thursday",
+      "observed_rule": "same-day",
+      "source_url": "https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/"
+    },
+    {
+      "year": 2027,
+      "holiday": "Thanksgiving Day",
+      "legal_date": "2027-11-25",
+      "legal_weekday": "Thursday",
+      "observed_date": "2027-11-25",
+      "observed_weekday": "Thursday",
+      "observed_rule": "same-day",
+      "source_url": "https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/"
+    },
+    {
+      "year": 2027,
+      "holiday": "Christmas Day",
+      "legal_date": "2027-12-25",
+      "legal_weekday": "Saturday",
+      "observed_date": "2027-12-24",
+      "observed_weekday": "Friday",
+      "observed_rule": "saturday-to-friday",
+      "source_url": "https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/"
+    },
+    {
+      "year": 2028,
+      "holiday": "New Year's Day",
+      "legal_date": "2028-01-01",
+      "legal_weekday": "Saturday",
+      "observed_date": "2027-12-31",
+      "observed_weekday": "Friday",
+      "observed_rule": "saturday-to-friday",
+      "source_url": "https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/"
+    },
+    {
+      "year": 2028,
+      "holiday": "Birthday of Martin Luther King, Jr.",
+      "legal_date": "2028-01-17",
+      "legal_weekday": "Monday",
+      "observed_date": "2028-01-17",
+      "observed_weekday": "Monday",
+      "observed_rule": "same-day",
+      "source_url": "https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/"
+    },
+    {
+      "year": 2028,
+      "holiday": "Washington's Birthday",
+      "legal_date": "2028-02-21",
+      "legal_weekday": "Monday",
+      "observed_date": "2028-02-21",
+      "observed_weekday": "Monday",
+      "observed_rule": "same-day",
+      "source_url": "https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/"
+    },
+    {
+      "year": 2028,
+      "holiday": "Memorial Day",
+      "legal_date": "2028-05-29",
+      "legal_weekday": "Monday",
+      "observed_date": "2028-05-29",
+      "observed_weekday": "Monday",
+      "observed_rule": "same-day",
+      "source_url": "https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/"
+    },
+    {
+      "year": 2028,
+      "holiday": "Juneteenth National Independence Day",
+      "legal_date": "2028-06-19",
+      "legal_weekday": "Monday",
+      "observed_date": "2028-06-19",
+      "observed_weekday": "Monday",
+      "observed_rule": "same-day",
+      "source_url": "https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/"
+    },
+    {
+      "year": 2028,
+      "holiday": "Independence Day",
+      "legal_date": "2028-07-04",
+      "legal_weekday": "Tuesday",
+      "observed_date": "2028-07-04",
+      "observed_weekday": "Tuesday",
+      "observed_rule": "same-day",
+      "source_url": "https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/"
+    },
+    {
+      "year": 2028,
+      "holiday": "Labor Day",
+      "legal_date": "2028-09-04",
+      "legal_weekday": "Monday",
+      "observed_date": "2028-09-04",
+      "observed_weekday": "Monday",
+      "observed_rule": "same-day",
+      "source_url": "https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/"
+    },
+    {
+      "year": 2028,
+      "holiday": "Columbus Day",
+      "legal_date": "2028-10-09",
+      "legal_weekday": "Monday",
+      "observed_date": "2028-10-09",
+      "observed_weekday": "Monday",
+      "observed_rule": "same-day",
+      "source_url": "https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/"
+    },
+    {
+      "year": 2028,
+      "holiday": "Veterans Day",
+      "legal_date": "2028-11-11",
+      "legal_weekday": "Saturday",
+      "observed_date": "2028-11-10",
+      "observed_weekday": "Friday",
+      "observed_rule": "saturday-to-friday",
+      "source_url": "https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/"
+    },
+    {
+      "year": 2028,
+      "holiday": "Thanksgiving Day",
+      "legal_date": "2028-11-23",
+      "legal_weekday": "Thursday",
+      "observed_date": "2028-11-23",
+      "observed_weekday": "Thursday",
+      "observed_rule": "same-day",
+      "source_url": "https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/"
+    },
+    {
+      "year": 2028,
+      "holiday": "Christmas Day",
+      "legal_date": "2028-12-25",
+      "legal_weekday": "Monday",
+      "observed_date": "2028-12-25",
+      "observed_weekday": "Monday",
+      "observed_rule": "same-day",
+      "source_url": "https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/"
+    }
+  ]
+}

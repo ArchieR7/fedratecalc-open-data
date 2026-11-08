@@ -1,0 +1,287 @@
+{
+  "metadata": {
+    "name": "FOMC meeting dates 2026-2027",
+    "description": "Every two-day Federal Open Market Committee meeting on the Federal Reserve calendar for 2026 and 2027: start and end dates, the 2:00 p.m. ET statement time (with its UTC equivalent, which shifts with daylight saving time), whether the meeting has a Summary of Economic Projections (SEP), and a status. The Federal Reserve lists the 2027 dates as tentative, and so does this file.",
+    "url": "https://fedratecalc.com/data/fomc-meetings-2026-2027/",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "licenseName": "CC BY 4.0",
+    "attribution": "FedRateCalc",
+    "attributionText": "FedRateCalc (https://fedratecalc.com/data/fomc-meetings-2026-2027/), CC BY 4.0",
+    "sources": [
+      {
+        "label": "Federal Reserve Board: FOMC meeting calendars and information",
+        "href": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
+      }
+    ],
+    "generated": "2026-11-05",
+    "dataAsOf": "2026-11-06",
+    "temporalCoverage": "2026-01-27/2027-12-08",
+    "columns": [
+      {
+        "name": "meeting_id",
+        "type": "string",
+        "meaning": "Identifier of the meeting: the decision day, as YYYY-MM-DD."
+      },
+      {
+        "name": "year",
+        "type": "integer",
+        "meaning": "Calendar year of the meeting."
+      },
+      {
+        "name": "meeting_start_date",
+        "type": "date",
+        "meaning": "First day of the two-day meeting (YYYY-MM-DD)."
+      },
+      {
+        "name": "meeting_end_date",
+        "type": "date",
+        "meaning": "Second day of the meeting, the day the statement is released (YYYY-MM-DD)."
+      },
+      {
+        "name": "statement_time_et",
+        "type": "string",
+        "meaning": "Scheduled statement time on the end date, 24-hour clock, in Eastern time (always 14:00, which is 2:00 p.m.)."
+      },
+      {
+        "name": "statement_time_zone",
+        "type": "string",
+        "meaning": "IANA time zone of statement_time_et (America/New_York)."
+      },
+      {
+        "name": "statement_utc_offset",
+        "type": "string",
+        "meaning": "Offset of New York time from UTC on the end date: -04:00 in daylight time, -05:00 in standard time."
+      },
+      {
+        "name": "statement_datetime_utc",
+        "type": "datetime",
+        "meaning": "The statement time as an ISO 8601 UTC timestamp, after applying the offset for that date."
+      },
+      {
+        "name": "sep",
+        "type": "enum",
+        "meaning": "yes when the meeting is associated with a Summary of Economic Projections (marked * on the Federal Reserve calendar), otherwise no."
+      },
+      {
+        "name": "status",
+        "type": "enum",
+        "meaning": "completed when FedRateCalc has recorded the decision, scheduled for a 2026 meeting without a recorded decision, tentative for every 2027 meeting."
+      },
+      {
+        "name": "source_url",
+        "type": "string",
+        "meaning": "The Federal Reserve calendar page the dates come from."
+      }
+    ]
+  },
+  "rows": [
+    {
+      "meeting_id": "2026-01-28",
+      "year": 2026,
+      "meeting_start_date": "2026-01-27",
+      "meeting_end_date": "2026-01-28",
+      "statement_time_et": "14:00",
+      "statement_time_zone": "America/New_York",
+      "statement_utc_offset": "-05:00",
+      "statement_datetime_utc": "2026-01-28T19:00:00Z",
+      "sep": "no",
+      "status": "completed",
+      "source_url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
+    },
+    {
+      "meeting_id": "2026-03-18",
+      "year": 2026,
+      "meeting_start_date": "2026-03-17",
+      "meeting_end_date": "2026-03-18",
+      "statement_time_et": "14:00",
+      "statement_time_zone": "America/New_York",
+      "statement_utc_offset": "-04:00",
+      "statement_datetime_utc": "2026-03-18T18:00:00Z",
+      "sep": "yes",
+      "status": "completed",
+      "source_url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
+    },
+    {
+      "meeting_id": "2026-04-29",
+      "year": 2026,
+      "meeting_start_date": "2026-04-28",
+      "meeting_end_date": "2026-04-29",
+      "statement_time_et": "14:00",
+      "statement_time_zone": "America/New_York",
+      "statement_utc_offset": "-04:00",
+      "statement_datetime_utc": "2026-04-29T18:00:00Z",
+      "sep": "no",
+      "status": "completed",
+      "source_url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
+    },
+    {
+      "meeting_id": "2026-06-17",
+      "year": 2026,
+      "meeting_start_date": "2026-06-16",
+      "meeting_end_date": "2026-06-17",
+      "statement_time_et": "14:00",
+      "statement_time_zone": "America/New_York",
+      "statement_utc_offset": "-04:00",
+      "statement_datetime_utc": "2026-06-17T18:00:00Z",
+      "sep": "yes",
+      "status": "completed",
+      "source_url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
+    },
+    {
+      "meeting_id": "2026-07-29",
+      "year": 2026,
+      "meeting_start_date": "2026-07-28",
+      "meeting_end_date": "2026-07-29",
+      "statement_time_et": "14:00",
+      "statement_time_zone": "America/New_York",
+      "statement_utc_offset": "-04:00",
+      "statement_datetime_utc": "2026-07-29T18:00:00Z",
+      "sep": "no",
+      "status": "completed",
+      "source_url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
+    },
+    {
+      "meeting_id": "2026-09-16",
+      "year": 2026,
+      "meeting_start_date": "2026-09-15",
+      "meeting_end_date": "2026-09-16",
+      "statement_time_et": "14:00",
+      "statement_time_zone": "America/New_York",
+      "statement_utc_offset": "-04:00",
+      "statement_datetime_utc": "2026-09-16T18:00:00Z",
+      "sep": "yes",
+      "status": "completed",
+      "source_url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
+    },
+    {
+      "meeting_id": "2026-10-28",
+      "year": 2026,
+      "meeting_start_date": "2026-10-27",
+      "meeting_end_date": "2026-10-28",
+      "statement_time_et": "14:00",
+      "statement_time_zone": "America/New_York",
+      "statement_utc_offset": "-04:00",
+      "statement_datetime_utc": "2026-10-28T18:00:00Z",
+      "sep": "no",
+      "status": "completed",
+      "source_url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
+    },
+    {
+      "meeting_id": "2026-12-09",
+      "year": 2026,
+      "meeting_start_date": "2026-12-08",
+      "meeting_end_date": "2026-12-09",
+      "statement_time_et": "14:00",
+      "statement_time_zone": "America/New_York",
+      "statement_utc_offset": "-05:00",
+      "statement_datetime_utc": "2026-12-09T19:00:00Z",
+      "sep": "yes",
+      "status": "scheduled",
+      "source_url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
+    },
+    {
+      "meeting_id": "2027-01-27",
+      "year": 2027,
+      "meeting_start_date": "2027-01-26",
+      "meeting_end_date": "2027-01-27",
+      "statement_time_et": "14:00",
+      "statement_time_zone": "America/New_York",
+      "statement_utc_offset": "-05:00",
+      "statement_datetime_utc": "2027-01-27T19:00:00Z",
+      "sep": "no",
+      "status": "tentative",
+      "source_url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
+    },
+    {
+      "meeting_id": "2027-03-17",
+      "year": 2027,
+      "meeting_start_date": "2027-03-16",
+      "meeting_end_date": "2027-03-17",
+      "statement_time_et": "14:00",
+      "statement_time_zone": "America/New_York",
+      "statement_utc_offset": "-04:00",
+      "statement_datetime_utc": "2027-03-17T18:00:00Z",
+      "sep": "yes",
+      "status": "tentative",
+      "source_url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
+    },
+    {
+      "meeting_id": "2027-04-28",
+      "year": 2027,
+      "meeting_start_date": "2027-04-27",
+      "meeting_end_date": "2027-04-28",
+      "statement_time_et": "14:00",
+      "statement_time_zone": "America/New_York",
+      "statement_utc_offset": "-04:00",
+      "statement_datetime_utc": "2027-04-28T18:00:00Z",
+      "sep": "no",
+      "status": "tentative",
+      "source_url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
+    },
+    {
+      "meeting_id": "2027-06-09",
+      "year": 2027,
+      "meeting_start_date": "2027-06-08",
+      "meeting_end_date": "2027-06-09",
+      "statement_time_et": "14:00",
+      "statement_time_zone": "America/New_York",
+      "statement_utc_offset": "-04:00",
+      "statement_datetime_utc": "2027-06-09T18:00:00Z",
+      "sep": "yes",
+      "status": "tentative",
+      "source_url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
+    },
+    {
+      "meeting_id": "2027-07-28",
+      "year": 2027,
+      "meeting_start_date": "2027-07-27",
+      "meeting_end_date": "2027-07-28",
+      "statement_time_et": "14:00",
+      "statement_time_zone": "America/New_York",
+      "statement_utc_offset": "-04:00",
+      "statement_datetime_utc": "2027-07-28T18:00:00Z",
+      "sep": "no",
+      "status": "tentative",
+      "source_url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
+    },
+    {
+      "meeting_id": "2027-09-15",
+      "year": 2027,
+      "meeting_start_date": "2027-09-14",
+      "meeting_end_date": "2027-09-15",
+      "statement_time_et": "14:00",
+      "statement_time_zone": "America/New_York",
+      "statement_utc_offset": "-04:00",
+      "statement_datetime_utc": "2027-09-15T18:00:00Z",
+      "sep": "yes",
+      "status": "tentative",
+      "source_url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
+    },
+    {
+      "meeting_id": "2027-10-27",
+      "year": 2027,
+      "meeting_start_date": "2027-10-26",
+      "meeting_end_date": "2027-10-27",
+      "statement_time_et": "14:00",
+      "statement_time_zone": "America/New_York",
+      "statement_utc_offset": "-04:00",
+      "statement_datetime_utc": "2027-10-27T18:00:00Z",
+      "sep": "no",
+      "status": "tentative",
+      "source_url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
+    },
+    {
+      "meeting_id": "2027-12-08",
+      "year": 2027,
+      "meeting_start_date": "2027-12-07",
+      "meeting_end_date": "2027-12-08",
+      "statement_time_et": "14:00",
+      "statement_time_zone": "America/New_York",
+      "statement_utc_offset": "-05:00",
+      "statement_datetime_utc": "2027-12-08T19:00:00Z",
+      "sep": "yes",
+      "status": "tentative",
+      "source_url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
+    }
+  ]
+}

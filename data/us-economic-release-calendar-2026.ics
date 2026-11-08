@@ -1,0 +1,1261 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//FedRateCalc//Open Data//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:U.S. economic data release calendar 2026
+X-WR-CALDESC:U.S. economic data release calendar 2026. Source: BLS 2026 rel
+ ease calendar (https://www.bls.gov/schedule/2026/home.htm)\; BEA release s
+ chedule (https://www.bea.gov/news/schedule)\; Census economic indicators c
+ alendar (https://www.census.gov/economic-indicators/calendar-listview.html
+ )\; Federal Reserve FOMC calendar (https://www.federalreserve.gov/monetary
+ policy/fomccalendars.htm). Compiled by FedRateCalc\, CC BY 4.0 (https://cr
+ eativecommons.org/licenses/by/4.0/)\, attribution "FedRateCalc". Generated
+  2026-11-05\, data as of 2026-09-12. https://fedratecalc.com/data/us-econo
+ mic-release-calendar-2026/
+X-WR-TIMEZONE:America/New_York
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:jolts-2026-01-07-november-2025@fedratecalc.com
+DTSTAMP:20261105T000000Z
+DTSTART;TZID=America/New_York:20260107T100000
+DTEND;TZID=America/New_York:20260107T103000
+SUMMARY:Job Openings and Labor Turnover Survey (JOLTS)
+DESCRIPTION:Job Openings and Labor Turnover Survey (JOLTS)\, covering Novem
+ ber 2025. Released by U.S. Bureau of Labor Statistics at 10:00 AM ET. Sour
+ ce: https://www.bls.gov/schedule/2026/home.htm. FedRateCalc\, CC BY 4.0\, 
+ https://fedratecalc.com/data/us-economic-release-calendar-2026/
+URL:https://www.bls.gov/schedule/2026/home.htm
+END:VEVENT
+BEGIN:VEVENT
+UID:employment-2026-01-09-december-2025@fedratecalc.com
+DTSTAMP:20261105T000000Z
+DTSTART;TZID=America/New_York:20260109T083000
+DTEND;TZID=America/New_York:20260109T090000
+SUMMARY:Employment Situation (Nonfarm Payrolls)
+DESCRIPTION:Employment Situation (Nonfarm Payrolls)\, covering December 202
+ 5. Released by U.S. Bureau of Labor Statistics at 8:30 AM ET. Source: http
+ s://www.bls.gov/schedule/2026/home.htm. FedRateCalc\, CC BY 4.0\, https://
+ fedratecalc.com/data/us-economic-release-calendar-2026/
+URL:https://www.bls.gov/schedule/2026/home.htm
+END:VEVENT
+BEGIN:VEVENT
+UID:cpi-2026-01-13-december-2025@fedratecalc.com
+DTSTAMP:20261105T000000Z
+DTSTART;TZID=America/New_York:20260113T083000
+DTEND;TZID=America/New_York:20260113T090000
+SUMMARY:Consumer Price Index (CPI)
+DESCRIPTION:Consumer Price Index (CPI)\, covering December 2025. Released b
+ y U.S. Bureau of Labor Statistics at 8:30 AM ET. Source: https://www.bls.g
+ ov/schedule/2026/home.htm. FedRateCalc\, CC BY 4.0\, https://fedratecalc.c
+ om/data/us-economic-release-calendar-2026/
+URL:https://www.bls.gov/schedule/2026/home.htm
+END:VEVENT
+BEGIN:VEVENT
+UID:retail-sales-2026-01-14-november-2025@fedratecalc.com
+DTSTAMP:20261105T000000Z
+DTSTART;TZID=America/New_York:20260114T083000
+DTEND;TZID=America/New_York:20260114T090000
+SUMMARY:Advance Monthly Retail Sales
+DESCRIPTION:Advance Monthly Retail Sales\, covering November 2025. Released
+  by U.S. Census Bureau at 8:30 AM ET. Source: https://www.census.gov/econo
+ mic-indicators/calendar-listview.html. FedRateCalc\, CC BY 4.0\, https://f
+ edratecalc.com/data/us-economic-release-calendar-2026/
+URL:https://www.census.gov/economic-indicators/calendar-listview.html
+END:VEVENT
+BEGIN:VEVENT
+UID:ppi-2026-01-14-november-2025@fedratecalc.com
+DTSTAMP:20261105T000000Z
+DTSTART;TZID=America/New_York:20260114T083000
+DTEND;TZID=America/New_York:20260114T090000
+SUMMARY:Producer Price Index (PPI)
+DESCRIPTION:Producer Price Index (PPI)\, covering November 2025. Released b
+ y U.S. Bureau of Labor Statistics at 8:30 AM ET. Source: https://www.bls.g
+ ov/schedule/2026/home.htm. FedRateCalc\, CC BY 4.0\, https://fedratecalc.c
+ om/data/us-economic-release-calendar-2026/
+URL:https://www.bls.gov/schedule/2026/home.htm
+END:VEVENT
+BEGIN:VEVENT
+UID:fomc-2026-01-28-january-27-28-meeting@fedratecalc.com
+DTSTAMP:20261105T000000Z
+DTSTART;TZID=America/New_York:20260128T140000
+DTEND;TZID=America/New_York:20260128T143000
+SUMMARY:FOMC Rate Decision
+DESCRIPTION:FOMC Rate Decision\, covering January 27–28 meeting. Released
+  by Board of Governors of the Federal Reserve System at 2:00 PM ET. Source
+ : https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm. FedRate
+ Calc\, CC BY 4.0\, https://fedratecalc.com/data/us-economic-release-calend
+ ar-2026/
+URL:https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
+END:VEVENT
+BEGIN:VEVENT
+UID:ppi-2026-01-30-december-2025@fedratecalc.com
+DTSTAMP:20261105T000000Z
+DTSTART;TZID=America/New_York:20260130T083000
+DTEND;TZID=America/New_York:20260130T090000
+SUMMARY:Producer Price Index (PPI)
+DESCRIPTION:Producer Price Index (PPI)\, covering December 2025. Released b
+ y U.S. Bureau of Labor Statistics at 8:30 AM ET. Source: https://www.bls.g
+ ov/schedule/2026/home.htm. FedRateCalc\, CC BY 4.0\, https://fedratecalc.c
+ om/data/us-economic-release-calendar-2026/
+URL:https://www.bls.gov/schedule/2026/home.htm
+END:VEVENT
+BEGIN:VEVENT
+UID:jolts-2026-02-05-december-2025@fedratecalc.com
+DTSTAMP:20261105T000000Z
+DTSTART;TZID=America/New_York:20260205T100000
+DTEND;TZID=America/New_York:20260205T103000
+SUMMARY:Job Openings and Labor Turnover Survey (JOLTS)
+DESCRIPTION:Job Openings and Labor Turnover Survey (JOLTS)\, covering Decem
+ ber 2025. Released by U.S. Bureau of Labor Statistics at 10:00 AM ET. Sour
+ ce: https://www.bls.gov/schedule/2026/home.htm. FedRateCalc\, CC BY 4.0\, 
+ https://fedratecalc.com/data/us-economic-release-calendar-2026/
+URL:https://www.bls.gov/schedule/2026/home.htm
+END:VEVENT
+BEGIN:VEVENT
+UID:retail-sales-2026-02-10-december-2025@fedratecalc.com
+DTSTAMP:20261105T000000Z
+DTSTART;TZID=America/New_York:20260210T083000
+DTEND;TZID=America/New_York:20260210T090000
+SUMMARY:Advance Monthly Retail Sales
+DESCRIPTION:Advance Monthly Retail Sales\, covering December 2025. Released
+  by U.S. Census Bureau at 8:30 AM ET. Source: https://www.census.gov/econo
+ mic-indicators/calendar-listview.html. FedRateCalc\, CC BY 4.0\, https://f
+ edratecalc.com/data/us-economic-release-calendar-2026/
+URL:https://www.census.gov/economic-indicators/calendar-listview.html
+END:VEVENT
+BEGIN:VEVENT
+UID:employment-2026-02-11-january-2026@fedratecalc.com
+DTSTAMP:20261105T000000Z
+DTSTART;TZID=America/New_York:20260211T083000
+DTEND;TZID=America/New_York:20260211T090000
+SUMMARY:Employment Situation (Nonfarm Payrolls)
+DESCRIPTION:Employment Situation (Nonfarm Payrolls)\, covering January 2026
+ . Released by U.S. Bureau of Labor Statistics at 8:30 AM ET. Source: https
+ ://www.bls.gov/schedule/2026/home.htm. FedRateCalc\, CC BY 4.0\, https://f
+ edratecalc.com/data/us-economic-release-calendar-2026/
+URL:https://www.bls.gov/schedule/2026/home.htm
+END:VEVENT
+BEGIN:VEVENT
+UID:cpi-2026-02-13-january-2026@fedratecalc.com
+DTSTAMP:20261105T000000Z
+DTSTART;TZID=America/New_York:20260213T083000
+DTEND;TZID=America/New_York:20260213T090000
+SUMMARY:Consumer Price Index (CPI)
+DESCRIPTION:Consumer Price Index (CPI)\, covering January 2026. Released by
+  U.S. Bureau of Labor Statistics at 8:30 AM ET. Source: https://www.bls.go
+ v/schedule/2026/home.htm. FedRateCalc\, CC BY 4.0\, https://fedratecalc.co
+ m/data/us-economic-release-calendar-2026/
+URL:https://www.bls.gov/schedule/2026/home.htm
+END:VEVENT
+BEGIN:VEVENT
+UID:fomc-minutes-2026-02-18-january-27-28-meeting@fedratecalc.com
+DTSTAMP:20261105T000000Z
+DTSTART;TZID=America/New_York:20260218T140000
+DTEND;TZID=America/New_York:20260218T143000
+SUMMARY:FOMC Meeting Minutes
+DESCRIPTION:FOMC Meeting Minutes\, covering January 27–28 meeting. Releas
+ ed by Board of Governors of the Federal Reserve System at 2:00 PM ET. Sour
+ ce: https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm. FedRa
+ teCalc\, CC BY 4.0\, https://fedratecalc.com/data/us-economic-release-cale
+ ndar-2026/
+URL:https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
+END:VEVENT
+BEGIN:VEVENT
+UID:gdp-2026-02-20-q4-2025@fedratecalc.com
+DTSTAMP:20261105T000000Z
+DTSTART;TZID=America/New_York:20260220T083000
+DTEND;TZID=America/New_York:20260220T090000
+SUMMARY:GDP (Advance Estimate)
+DESCRIPTION:GDP (Advance Estimate)\, covering Q4 2025. Released by U.S. Bur
+ eau of Economic Analysis at 8:30 AM ET. Source: https://www.bea.gov/news/s
+ chedule. FedRateCalc\, CC BY 4.0\, https://fedratecalc.com/data/us-economi
+ c-release-calendar-2026/
+URL:https://www.bea.gov/news/schedule
+END:VEVENT
+BEGIN:VEVENT
+UID:pce-2026-02-20-december-2025@fedratecalc.com
+DTSTAMP:20261105T000000Z
+DTSTART;TZID=America/New_York:20260220T083000
+DTEND;TZID=America/New_York:20260220T090000
+SUMMARY:Personal Income and Outlays (PCE Inflation)
+DESCRIPTION:Personal Income and Outlays (PCE Inflation)\, covering December
+  2025. Released by U.S. Bureau of Economic Analysis at 8:30 AM ET. Source:
+  https://www.bea.gov/news/schedule. FedRateCalc\, CC BY 4.0\, https://fedr
+ atecalc.com/data/us-economic-release-calendar-2026/
+URL:https://www.bea.gov/news/schedule
+END:VEVENT
+BEGIN:VEVENT
+UID:ppi-2026-02-27-january-2026@fedratecalc.com
+DTSTAMP:20261105T000000Z
+DTSTART;TZID=America/New_York:20260227T083000
+DTEND;TZID=America/New_York:20260227T090000
+SUMMARY:Producer Price Index (PPI)
+DESCRIPTION:Producer Price Index (PPI)\, covering January 2026. Released by
+  U.S. Bureau of Labor Statistics at 8:30 AM ET. Source: https://www.bls.go
+ v/schedule/2026/home.htm. FedRateCalc\, CC BY 4.0\, https://fedratecalc.co
+ m/data/us-economic-release-calendar-2026/
+URL:https://www.bls.gov/schedule/2026/home.htm
+END:VEVENT
+BEGIN:VEVENT
+UID:retail-sales-2026-03-06-january-2026@fedratecalc.com
+DTSTAMP:20261105T000000Z
+DTSTART;TZID=America/New_York:20260306T083000
+DTEND;TZID=America/New_York:20260306T090000
+SUMMARY:Advance Monthly Retail Sales
+DESCRIPTION:Advance Monthly Retail Sales\, covering January 2026. Released 
+ by U.S. Census Bureau at 8:30 AM ET. Source: https://www.census.gov/econom
+ ic-indicators/calendar-listview.html. FedRateCalc\, CC BY 4.0\, https://fe
+ dratecalc.com/data/us-economic-release-calendar-2026/
+URL:https://www.census.gov/economic-indicators/calendar-listview.html
+END:VEVENT
+BEGIN:VEVENT
+UID:employment-2026-03-06-february-2026@fedratecalc.com
+DTSTAMP:20261105T000000Z
+DTSTART;TZID=America/New_York:20260306T083000
+DTEND;TZID=America/New_York:20260306T090000
+SUMMARY:Employment Situation (Nonfarm Payrolls)
+DESCRIPTION:Employment Situation (Nonfarm Payrolls)\, covering February 202
+ 6. Released by U.S. Bureau of Labor Statistics at 8:30 AM ET. Source: http
+ s://www.bls.gov/schedule/2026/home.htm. FedRateCalc\, CC BY 4.0\, https://
+ fedratecalc.com/data/us-economic-release-calendar-2026/
+URL:https://www.bls.gov/schedule/2026/home.htm
+END:VEVENT
+BEGIN:VEVENT
+UID:cpi-2026-03-11-february-2026@fedratecalc.com
+DTSTAMP:20261105T000000Z
+DTSTART;TZID=America/New_York:20260311T083000
+DTEND;TZID=America/New_York:20260311T090000
+SUMMARY:Consumer Price Index (CPI)
+DESCRIPTION:Consumer Price Index (CPI)\, covering February 2026. Released b
+ y U.S. Bureau of Labor Statistics at 8:30 AM ET. Source: https://www.bls.g
+ ov/schedule/2026/home.htm. FedRateCalc\, CC BY 4.0\, https://fedratecalc.c
+ om/data/us-economic-release-calendar-2026/
+URL:https://www.bls.gov/schedule/2026/home.htm
+END:VEVENT
+BEGIN:VEVENT
+UID:gdp-2026-03-13-q4-2025@fedratecalc.com
+DTSTAMP:20261105T000000Z
+DTSTART;TZID=America/New_York:20260313T083000
+DTEND;TZID=America/New_York:20260313T090000
+SUMMARY:GDP (Second Estimate)
+DESCRIPTION:GDP (Second Estimate)\, covering Q4 2025. Released by U.S. Bure
+ au of Economic Analysis at 8:30 AM ET. Source: https://www.bea.gov/news/sc
+ hedule. FedRateCalc\, CC BY 4.0\, https://fedratecalc.com/data/us-economic
+ -release-calendar-2026/
+URL:https://www.bea.gov/news/schedule
+END:VEVENT
+BEGIN:VEVENT
+UID:pce-2026-03-13-january-2026@fedratecalc.com
+DTSTAMP:20261105T000000Z
+DTSTART;TZID=America/New_York:20260313T083000
+DTEND;TZID=America/New_York:20260313T090000
+SUMMARY:Personal Income and Outlays (PCE Inflation)
+DESCRIPTION:Personal Income and Outlays (PCE Inflation)\, covering January 
+ 2026. Released by U.S. Bureau of Economic Analysis at 8:30 AM ET. Source: 
+ https://www.bea.gov/news/schedule. FedRateCalc\, CC BY 4.0\, https://fedra
+ tecalc.com/data/us-economic-release-calendar-2026/
+URL:https://www.bea.gov/news/schedule
+END:VEVENT
+BEGIN:VEVENT
+UID:jolts-2026-03-13-january-2026@fedratecalc.com
+DTSTAMP:20261105T000000Z
+DTSTART;TZID=America/New_York:20260313T100000
+DTEND;TZID=America/New_York:20260313T103000
+SUMMARY:Job Openings and Labor Turnover Survey (JOLTS)
+DESCRIPTION:Job Openings and Labor Turnover Survey (JOLTS)\, covering Janua
+ ry 2026. Released by U.S. Bureau of Labor Statistics at 10:00 AM ET. Sourc
+ e: https://www.bls.gov/schedule/2026/home.htm. FedRateCalc\, CC BY 4.0\, h
+ ttps://fedratecalc.com/data/us-economic-release-calendar-2026/
+URL:https://www.bls.gov/schedule/2026/home.htm
+END:VEVENT
+BEGIN:VEVENT
+UID:ppi-2026-03-18-february-2026@fedratecalc.com
+DTSTAMP:20261105T000000Z
+DTSTART;TZID=America/New_York:20260318T083000
+DTEND;TZID=America/New_York:20260318T090000
+SUMMARY:Producer Price Index (PPI)
+DESCRIPTION:Producer Price Index (PPI)\, covering February 2026. Released b
+ y U.S. Bureau of Labor Statistics at 8:30 AM ET. Source: https://www.bls.g
+ ov/schedule/2026/home.htm. FedRateCalc\, CC BY 4.0\, https://fedratecalc.c
+ om/data/us-economic-release-calendar-2026/
+URL:https://www.bls.gov/schedule/2026/home.htm
+END:VEVENT
+BEGIN:VEVENT
+UID:fomc-2026-03-18-march-17-18-meeting@fedratecalc.com
+DTSTAMP:20261105T000000Z
+DTSTART;TZID=America/New_York:20260318T140000
+DTEND;TZID=America/New_York:20260318T143000
+SUMMARY:FOMC Rate Decision
+DESCRIPTION:FOMC Rate Decision\, covering March 17–18 meeting. Released b
+ y Board of Governors of the Federal Reserve System at 2:00 PM ET. Source: 
+ https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm. FedRateCa
+ lc\, CC BY 4.0\, https://fedratecalc.com/data/us-economic-release-calendar
+ -2026/
+URL:https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
+END:VEVENT
+BEGIN:VEVENT
+UID:jolts-2026-03-31-february-2026@fedratecalc.com
+DTSTAMP:20261105T000000Z
+DTSTART;TZID=America/New_York:20260331T100000
+DTEND;TZID=America/New_York:20260331T103000
+SUMMARY:Job Openings and Labor Turnover Survey (JOLTS)
+DESCRIPTION:Job Openings and Labor Turnover Survey (JOLTS)\, covering Febru
+ ary 2026. Released by U.S. Bureau of Labor Statistics at 10:00 AM ET. Sour
+ ce: https://www.bls.gov/schedule/2026/home.htm. FedRateCalc\, CC BY 4.0\, 
+ https://fedratecalc.com/data/us-economic-release-calendar-2026/
+URL:https://www.bls.gov/schedule/2026/home.htm
+END:VEVENT
+BEGIN:VEVENT
+UID:retail-sales-2026-04-01-february-2026@fedratecalc.com
+DTSTAMP:20261105T000000Z
+DTSTART;TZID=America/New_York:20260401T083000
+DTEND;TZID=America/New_York:20260401T090000
+SUMMARY:Advance Monthly Retail Sales
+DESCRIPTION:Advance Monthly Retail Sales\, covering February 2026. Released
+  by U.S. Census Bureau at 8:30 AM ET. Source: https://www.census.gov/econo
+ mic-indicators/calendar-listview.html. FedRateCalc\, CC BY 4.0\, https://f
+ edratecalc.com/data/us-economic-release-calendar-2026/
+URL:https://www.census.gov/economic-indicators/calendar-listview.html
+END:VEVENT
+BEGIN:VEVENT
+UID:employment-2026-04-03-march-2026@fedratecalc.com
+DTSTAMP:20261105T000000Z
+DTSTART;TZID=America/New_York:20260403T083000
+DTEND;TZID=America/New_York:20260403T090000
+SUMMARY:Employment Situation (Nonfarm Payrolls)
+DESCRIPTION:Employment Situation (Nonfarm Payrolls)\, covering March 2026. 
+ Released by U.S. Bureau of Labor Statistics at 8:30 AM ET. Source: https:/
+ /www.bls.gov/schedule/2026/home.htm. FedRateCalc\, CC BY 4.0\, https://fed
+ ratecalc.com/data/us-economic-release-calendar-2026/
+URL:https://www.bls.gov/schedule/2026/home.htm
+END:VEVENT
+BEGIN:VEVENT
+UID:fomc-minutes-2026-04-08-march-17-18-meeting@fedratecalc.com
+DTSTAMP:20261105T000000Z
+DTSTART;TZID=America/New_York:20260408T140000
+DTEND;TZID=America/New_York:20260408T143000
+SUMMARY:FOMC Meeting Minutes
+DESCRIPTION:FOMC Meeting Minutes\, covering March 17–18 meeting. Released
+  by Board of Governors of the Federal Reserve System at 2:00 PM ET. Source
+ : https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm. FedRate
+ Calc\, CC BY 4.0\, https://fedratecalc.com/data/us-economic-release-calend
+ ar-2026/
+URL:https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
+END:VEVENT
+BEGIN:VEVENT
+UID:gdp-2026-04-09-q4-2025@fedratecalc.com
+DTSTAMP:20261105T000000Z
+DTSTART;TZID=America/New_York:20260409T083000
+DTEND;TZID=America/New_York:20260409T090000
+SUMMARY:GDP (Third Estimate)
+DESCRIPTION:GDP (Third Estimate)\, covering Q4 2025. Released by U.S. Burea
+ u of Economic Analysis at 8:30 AM ET. Source: https://www.bea.gov/news/sch
+ edule. FedRateCalc\, CC BY 4.0\, https://fedratecalc.com/data/us-economic-
+ release-calendar-2026/
+URL:https://www.bea.gov/news/schedule
+END:VEVENT
+BEGIN:VEVENT
+UID:pce-2026-04-09-february-2026@fedratecalc.com
+DTSTAMP:20261105T000000Z
+DTSTART;TZID=America/New_York:20260409T083000
+DTEND;TZID=America/New_York:20260409T090000
+SUMMARY:Personal Income and Outlays (PCE Inflation)
+DESCRIPTION:Personal Income and Outlays (PCE Inflation)\, covering February
+  2026. Released by U.S. Bureau of Economic Analysis at 8:30 AM ET. Source:
+  https://www.bea.gov/news/schedule. FedRateCalc\, CC BY 4.0\, https://fedr
+ atecalc.com/data/us-economic-release-calendar-2026/
+URL:https://www.bea.gov/news/schedule
+END:VEVENT
+BEGIN:VEVENT
+UID:cpi-2026-04-10-march-2026@fedratecalc.com
+DTSTAMP:20261105T000000Z
+DTSTART;TZID=America/New_York:20260410T083000
+DTEND;TZID=America/New_York:20260410T090000
+SUMMARY:Consumer Price Index (CPI)
+DESCRIPTION:Consumer Price Index (CPI)\, covering March 2026. Released by U
+ .S. Bureau of Labor Statistics at 8:30 AM ET. Source: https://www.bls.gov/
+ schedule/2026/home.htm. FedRateCalc\, CC BY 4.0\, https://fedratecalc.com/
+ data/us-economic-release-calendar-2026/
+URL:https://www.bls.gov/schedule/2026/home.htm
+END:VEVENT
+BEGIN:VEVENT
+UID:ppi-2026-04-14-march-2026@fedratecalc.com
+DTSTAMP:20261105T000000Z
+DTSTART;TZID=America/New_York:20260414T083000
+DTEND;TZID=America/New_York:20260414T090000
+SUMMARY:Producer Price Index (PPI)
+DESCRIPTION:Producer Price Index (PPI)\, covering March 2026. Released by U
+ .S. Bureau of Labor Statistics at 8:30 AM ET. Source: https://www.bls.gov/
+ schedule/2026/home.htm. FedRateCalc\, CC BY 4.0\, https://fedratecalc.com/
+ data/us-economic-release-calendar-2026/
+URL:https://www.bls.gov/schedule/2026/home.htm
+END:VEVENT
+BEGIN:VEVENT
+UID:retail-sales-2026-04-21-march-2026@fedratecalc.com
+DTSTAMP:20261105T000000Z
+DTSTART;TZID=America/New_York:20260421T083000
+DTEND;TZID=America/New_York:20260421T090000
+SUMMARY:Advance Monthly Retail Sales
+DESCRIPTION:Advance Monthly Retail Sales\, covering March 2026. Released by
+  U.S. Census Bureau at 8:30 AM ET. Source: https://www.census.gov/economic
+ -indicators/calendar-listview.html. FedRateCalc\, CC BY 4.0\, https://fedr
+ atecalc.com/data/us-economic-release-calendar-2026/
+URL:https://www.census.gov/economic-indicators/calendar-listview.html
+END:VEVENT
+BEGIN:VEVENT
+UID:fomc-2026-04-29-april-28-29-meeting@fedratecalc.com
+DTSTAMP:20261105T000000Z
+DTSTART;TZID=America/New_York:20260429T140000
+DTEND;TZID=America/New_York:20260429T143000
+SUMMARY:FOMC Rate Decision
+DESCRIPTION:FOMC Rate Decision\, covering April 28–29 meeting. Released b
+ y Board of Governors of the Federal Reserve System at 2:00 PM ET. Source: 
+ https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm. FedRateCa
+ lc\, CC BY 4.0\, https://fedratecalc.com/data/us-economic-release-calendar
+ -2026/
+URL:https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
+END:VEVENT
+BEGIN:VEVENT
+UID:gdp-2026-04-30-q1-2026@fedratecalc.com
+DTSTAMP:20261105T000000Z
+DTSTART;TZID=America/New_York:20260430T083000
+DTEND;TZID=America/New_York:20260430T090000
+SUMMARY:GDP (Advance Estimate)
+DESCRIPTION:GDP (Advance Estimate)\, covering Q1 2026. Released by U.S. Bur
+ eau of Economic Analysis at 8:30 AM ET. Source: https://www.bea.gov/news/s
+ chedule. FedRateCalc\, CC BY 4.0\, https://fedratecalc.com/data/us-economi
+ c-release-calendar-2026/
+URL:https://www.bea.gov/news/schedule
+END:VEVENT
+BEGIN:VEVENT
+UID:pce-2026-04-30-march-2026@fedratecalc.com
+DTSTAMP:20261105T000000Z
+DTSTART;TZID=America/New_York:20260430T083000
+DTEND;TZID=America/New_York:20260430T090000
+SUMMARY:Personal Income and Outlays (PCE Inflation)
+DESCRIPTION:Personal Income and Outlays (PCE Inflation)\, covering March 20
+ 26. Released by U.S. Bureau of Economic Analysis at 8:30 AM ET. Source: ht
+ tps://www.bea.gov/news/schedule. FedRateCalc\, CC BY 4.0\, https://fedrate
+ calc.com/data/us-economic-release-calendar-2026/
+URL:https://www.bea.gov/news/schedule
+END:VEVENT
+BEGIN:VEVENT
+UID:jolts-2026-05-05-march-2026@fedratecalc.com
+DTSTAMP:20261105T000000Z
+DTSTART;TZID=America/New_York:20260505T100000
+DTEND;TZID=America/New_York:20260505T103000
+SUMMARY:Job Openings and Labor Turnover Survey (JOLTS)
+DESCRIPTION:Job Openings and Labor Turnover Survey (JOLTS)\, covering March
+  2026. Released by U.S. Bureau of Labor Statistics at 10:00 AM ET. Source:
+  https://www.bls.gov/schedule/2026/home.htm. FedRateCalc\, CC BY 4.0\, htt
+ ps://fedratecalc.com/data/us-economic-release-calendar-2026/
+URL:https://www.bls.gov/schedule/2026/home.htm
+END:VEVENT
+BEGIN:VEVENT
+UID:employment-2026-05-08-april-2026@fedratecalc.com
+DTSTAMP:20261105T000000Z
+DTSTART;TZID=America/New_York:20260508T083000
+DTEND;TZID=America/New_York:20260508T090000
+SUMMARY:Employment Situation (Nonfarm Payrolls)
+DESCRIPTION:Employment Situation (Nonfarm Payrolls)\, covering April 2026. 
+ Released by U.S. Bureau of Labor Statistics at 8:30 AM ET. Source: https:/
+ /www.bls.gov/schedule/2026/home.htm. FedRateCalc\, CC BY 4.0\, https://fed
+ ratecalc.com/data/us-economic-release-calendar-2026/
+URL:https://www.bls.gov/schedule/2026/home.htm
+END:VEVENT
+BEGIN:VEVENT
+UID:cpi-2026-05-12-april-2026@fedratecalc.com
+DTSTAMP:20261105T000000Z
+DTSTART;TZID=America/New_York:20260512T083000
+DTEND;TZID=America/New_York:20260512T090000
+SUMMARY:Consumer Price Index (CPI)
+DESCRIPTION:Consumer Price Index (CPI)\, covering April 2026. Released by U
+ .S. Bureau of Labor Statistics at 8:30 AM ET. Source: https://www.bls.gov/
+ schedule/2026/home.htm. FedRateCalc\, CC BY 4.0\, https://fedratecalc.com/
+ data/us-economic-release-calendar-2026/
+URL:https://www.bls.gov/schedule/2026/home.htm
+END:VEVENT
+BEGIN:VEVENT
+UID:ppi-2026-05-13-april-2026@fedratecalc.com
+DTSTAMP:20261105T000000Z
+DTSTART;TZID=America/New_York:20260513T083000
+DTEND;TZID=America/New_York:20260513T090000
+SUMMARY:Producer Price Index (PPI)
+DESCRIPTION:Producer Price Index (PPI)\, covering April 2026. Released by U
+ .S. Bureau of Labor Statistics at 8:30 AM ET. Source: https://www.bls.gov/
+ schedule/2026/home.htm. FedRateCalc\, CC BY 4.0\, https://fedratecalc.com/
+ data/us-economic-release-calendar-2026/
+URL:https://www.bls.gov/schedule/2026/home.htm
+END:VEVENT
+BEGIN:VEVENT
+UID:retail-sales-2026-05-14-april-2026@fedratecalc.com
+DTSTAMP:20261105T000000Z
+DTSTART;TZID=America/New_York:20260514T083000
+DTEND;TZID=America/New_York:20260514T090000
+SUMMARY:Advance Monthly Retail Sales
+DESCRIPTION:Advance Monthly Retail Sales\, covering April 2026. Released by
+  U.S. Census Bureau at 8:30 AM ET. Source: https://www.census.gov/economic
+ -indicators/calendar-listview.html. FedRateCalc\, CC BY 4.0\, https://fedr
+ atecalc.com/data/us-economic-release-calendar-2026/
+URL:https://www.census.gov/economic-indicators/calendar-listview.html
+END:VEVENT
+BEGIN:VEVENT
+UID:fomc-minutes-2026-05-20-april-28-29-meeting@fedratecalc.com
+DTSTAMP:20261105T000000Z
+DTSTART;TZID=America/New_York:20260520T140000
+DTEND;TZID=America/New_York:20260520T143000
+SUMMARY:FOMC Meeting Minutes
+DESCRIPTION:FOMC Meeting Minutes\, covering April 28–29 meeting. Released
+  by Board of Governors of the Federal Reserve System at 2:00 PM ET. Source
+ : https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm. FedRate
+ Calc\, CC BY 4.0\, https://fedratecalc.com/data/us-economic-release-calend
+ ar-2026/
+URL:https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
+END:VEVENT
+BEGIN:VEVENT
+UID:gdp-2026-05-28-q1-2026@fedratecalc.com
+DTSTAMP:20261105T000000Z
+DTSTART;TZID=America/New_York:20260528T083000
+DTEND;TZID=America/New_York:20260528T090000
+SUMMARY:GDP (Second Estimate)
+DESCRIPTION:GDP (Second Estimate)\, covering Q1 2026. Released by U.S. Bure
+ au of Economic Analysis at 8:30 AM ET. Source: https://www.bea.gov/news/sc
+ hedule. FedRateCalc\, CC BY 4.0\, https://fedratecalc.com/data/us-economic
+ -release-calendar-2026/
+URL:https://www.bea.gov/news/schedule
+END:VEVENT
+BEGIN:VEVENT
+UID:pce-2026-05-28-april-2026@fedratecalc.com
+DTSTAMP:20261105T000000Z
+DTSTART;TZID=America/New_York:20260528T083000
+DTEND;TZID=America/New_York:20260528T090000
+SUMMARY:Personal Income and Outlays (PCE Inflation)
+DESCRIPTION:Personal Income and Outlays (PCE Inflation)\, covering April 20
+ 26. Released by U.S. Bureau of Economic Analysis at 8:30 AM ET. Source: ht
+ tps://www.bea.gov/news/schedule. FedRateCalc\, CC BY 4.0\, https://fedrate
+ calc.com/data/us-economic-release-calendar-2026/
+URL:https://www.bea.gov/news/schedule
+END:VEVENT
+BEGIN:VEVENT
+UID:jolts-2026-06-02-april-2026@fedratecalc.com
+DTSTAMP:20261105T000000Z
+DTSTART;TZID=America/New_York:20260602T100000
+DTEND;TZID=America/New_York:20260602T103000
+SUMMARY:Job Openings and Labor Turnover Survey (JOLTS)
+DESCRIPTION:Job Openings and Labor Turnover Survey (JOLTS)\, covering April
+  2026. Released by U.S. Bureau of Labor Statistics at 10:00 AM ET. Source:
+  https://www.bls.gov/schedule/2026/home.htm. FedRateCalc\, CC BY 4.0\, htt
+ ps://fedratecalc.com/data/us-economic-release-calendar-2026/
+URL:https://www.bls.gov/schedule/2026/home.htm
+END:VEVENT
+BEGIN:VEVENT
+UID:employment-2026-06-05-may-2026@fedratecalc.com
+DTSTAMP:20261105T000000Z
+DTSTART;TZID=America/New_York:20260605T083000
+DTEND;TZID=America/New_York:20260605T090000
+SUMMARY:Employment Situation (Nonfarm Payrolls)
+DESCRIPTION:Employment Situation (Nonfarm Payrolls)\, covering May 2026. Re
+ leased by U.S. Bureau of Labor Statistics at 8:30 AM ET. Source: https://w
+ ww.bls.gov/schedule/2026/home.htm. FedRateCalc\, CC BY 4.0\, https://fedra
+ tecalc.com/data/us-economic-release-calendar-2026/
+URL:https://www.bls.gov/schedule/2026/home.htm
+END:VEVENT
+BEGIN:VEVENT
+UID:cpi-2026-06-10-may-2026@fedratecalc.com
+DTSTAMP:20261105T000000Z
+DTSTART;TZID=America/New_York:20260610T083000
+DTEND;TZID=America/New_York:20260610T090000
+SUMMARY:Consumer Price Index (CPI)
+DESCRIPTION:Consumer Price Index (CPI)\, covering May 2026. Released by U.S
+ . Bureau of Labor Statistics at 8:30 AM ET. Source: https://www.bls.gov/sc
+ hedule/2026/home.htm. FedRateCalc\, CC BY 4.0\, https://fedratecalc.com/da
+ ta/us-economic-release-calendar-2026/
+URL:https://www.bls.gov/schedule/2026/home.htm
+END:VEVENT
+BEGIN:VEVENT
+UID:ppi-2026-06-11-may-2026@fedratecalc.com
+DTSTAMP:20261105T000000Z
+DTSTART;TZID=America/New_York:20260611T083000
+DTEND;TZID=America/New_York:20260611T090000
+SUMMARY:Producer Price Index (PPI)
+DESCRIPTION:Producer Price Index (PPI)\, covering May 2026. Released by U.S
+ . Bureau of Labor Statistics at 8:30 AM ET. Source: https://www.bls.gov/sc
+ hedule/2026/home.htm. FedRateCalc\, CC BY 4.0\, https://fedratecalc.com/da
+ ta/us-economic-release-calendar-2026/
+URL:https://www.bls.gov/schedule/2026/home.htm
+END:VEVENT
+BEGIN:VEVENT
+UID:retail-sales-2026-06-17-may-2026@fedratecalc.com
+DTSTAMP:20261105T000000Z
+DTSTART;TZID=America/New_York:20260617T083000
+DTEND;TZID=America/New_York:20260617T090000
+SUMMARY:Advance Monthly Retail Sales
+DESCRIPTION:Advance Monthly Retail Sales\, covering May 2026. Released by U
+ .S. Census Bureau at 8:30 AM ET. Source: https://www.census.gov/economic-i
+ ndicators/calendar-listview.html. FedRateCalc\, CC BY 4.0\, https://fedrat
+ ecalc.com/data/us-economic-release-calendar-2026/
+URL:https://www.census.gov/economic-indicators/calendar-listview.html
+END:VEVENT
+BEGIN:VEVENT
+UID:fomc-2026-06-17-june-16-17-meeting@fedratecalc.com
+DTSTAMP:20261105T000000Z
+DTSTART;TZID=America/New_York:20260617T140000
+DTEND;TZID=America/New_York:20260617T143000
+SUMMARY:FOMC Rate Decision
+DESCRIPTION:FOMC Rate Decision\, covering June 16–17 meeting. Released by
+  Board of Governors of the Federal Reserve System at 2:00 PM ET. Source: h
+ ttps://www.federalreserve.gov/monetarypolicy/fomccalendars.htm. FedRateCal
+ c\, CC BY 4.0\, https://fedratecalc.com/data/us-economic-release-calendar-
+ 2026/
+URL:https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
+END:VEVENT
+BEGIN:VEVENT
+UID:gdp-2026-06-25-q1-2026@fedratecalc.com
+DTSTAMP:20261105T000000Z
+DTSTART;TZID=America/New_York:20260625T083000
+DTEND;TZID=America/New_York:20260625T090000
+SUMMARY:GDP (Third Estimate)
+DESCRIPTION:GDP (Third Estimate)\, covering Q1 2026. Released by U.S. Burea
+ u of Economic Analysis at 8:30 AM ET. Source: https://www.bea.gov/news/sch
+ edule. FedRateCalc\, CC BY 4.0\, https://fedratecalc.com/data/us-economic-
+ release-calendar-2026/
+URL:https://www.bea.gov/news/schedule
+END:VEVENT
+BEGIN:VEVENT
+UID:pce-2026-06-25-may-2026@fedratecalc.com
+DTSTAMP:20261105T000000Z
+DTSTART;TZID=America/New_York:20260625T083000
+DTEND;TZID=America/New_York:20260625T090000
+SUMMARY:Personal Income and Outlays (PCE Inflation)
+DESCRIPTION:Personal Income and Outlays (PCE Inflation)\, covering May 2026
+ . Released by U.S. Bureau of Economic Analysis at 8:30 AM ET. Source: http
+ s://www.bea.gov/news/schedule. FedRateCalc\, CC BY 4.0\, https://fedrateca
+ lc.com/data/us-economic-release-calendar-2026/
+URL:https://www.bea.gov/news/schedule
+END:VEVENT
+BEGIN:VEVENT
+UID:jolts-2026-06-30-may-2026@fedratecalc.com
+DTSTAMP:20261105T000000Z
+DTSTART;TZID=America/New_York:20260630T100000
+DTEND;TZID=America/New_York:20260630T103000
+SUMMARY:Job Openings and Labor Turnover Survey (JOLTS)
+DESCRIPTION:Job Openings and Labor Turnover Survey (JOLTS)\, covering May 2
+ 026. Released by U.S. Bureau of Labor Statistics at 10:00 AM ET. Source: h
+ ttps://www.bls.gov/schedule/2026/home.htm. FedRateCalc\, CC BY 4.0\, https
+ ://fedratecalc.com/data/us-economic-release-calendar-2026/
+URL:https://www.bls.gov/schedule/2026/home.htm
+END:VEVENT
+BEGIN:VEVENT
+UID:employment-2026-07-02-june-2026@fedratecalc.com
+DTSTAMP:20261105T000000Z
+DTSTART;TZID=America/New_York:20260702T083000
+DTEND;TZID=America/New_York:20260702T090000
+SUMMARY:Employment Situation (Nonfarm Payrolls)
+DESCRIPTION:Employment Situation (Nonfarm Payrolls)\, covering June 2026. R
+ eleased by U.S. Bureau of Labor Statistics at 8:30 AM ET. Source: https://
+ www.bls.gov/schedule/2026/home.htm. FedRateCalc\, CC BY 4.0\, https://fedr
+ atecalc.com/data/us-economic-release-calendar-2026/
+URL:https://www.bls.gov/schedule/2026/home.htm
+END:VEVENT
+BEGIN:VEVENT
+UID:fomc-minutes-2026-07-08-june-16-17-meeting@fedratecalc.com
+DTSTAMP:20261105T000000Z
+DTSTART;TZID=America/New_York:20260708T140000
+DTEND;TZID=America/New_York:20260708T143000
+SUMMARY:FOMC Meeting Minutes
+DESCRIPTION:FOMC Meeting Minutes\, covering June 16–17 meeting. Released 
+ by Board of Governors of the Federal Reserve System at 2:00 PM ET. Source:
+  https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm. FedRateC
+ alc\, CC BY 4.0\, https://fedratecalc.com/data/us-economic-release-calenda
+ r-2026/
+URL:https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
+END:VEVENT
+BEGIN:VEVENT
+UID:cpi-2026-07-14-june-2026@fedratecalc.com
+DTSTAMP:20261105T000000Z
+DTSTART;TZID=America/New_York:20260714T083000
+DTEND;TZID=America/New_York:20260714T090000
+SUMMARY:Consumer Price Index (CPI)
+DESCRIPTION:Consumer Price Index (CPI)\, covering June 2026. Released by U.
+ S. Bureau of Labor Statistics at 8:30 AM ET. Source: https://www.bls.gov/s
+ chedule/2026/home.htm. FedRateCalc\, CC BY 4.0\, https://fedratecalc.com/d
+ ata/us-economic-release-calendar-2026/
+URL:https://www.bls.gov/schedule/2026/home.htm
+END:VEVENT
+BEGIN:VEVENT
+UID:ppi-2026-07-15-june-2026@fedratecalc.com
+DTSTAMP:20261105T000000Z
+DTSTART;TZID=America/New_York:20260715T083000
+DTEND;TZID=America/New_York:20260715T090000
+SUMMARY:Producer Price Index (PPI)
+DESCRIPTION:Producer Price Index (PPI)\, covering June 2026. Released by U.
+ S. Bureau of Labor Statistics at 8:30 AM ET. Source: https://www.bls.gov/s
+ chedule/2026/home.htm. FedRateCalc\, CC BY 4.0\, https://fedratecalc.com/d
+ ata/us-economic-release-calendar-2026/
+URL:https://www.bls.gov/schedule/2026/home.htm
+END:VEVENT
+BEGIN:VEVENT
+UID:retail-sales-2026-07-16-june-2026@fedratecalc.com
+DTSTAMP:20261105T000000Z
+DTSTART;TZID=America/New_York:20260716T083000
+DTEND;TZID=America/New_York:20260716T090000
+SUMMARY:Advance Monthly Retail Sales
+DESCRIPTION:Advance Monthly Retail Sales\, covering June 2026. Released by 
+ U.S. Census Bureau at 8:30 AM ET. Source: https://www.census.gov/economic-
+ indicators/calendar-listview.html. FedRateCalc\, CC BY 4.0\, https://fedra
+ tecalc.com/data/us-economic-release-calendar-2026/
+URL:https://www.census.gov/economic-indicators/calendar-listview.html
+END:VEVENT
+BEGIN:VEVENT
+UID:fomc-2026-07-29-july-28-29-meeting@fedratecalc.com
+DTSTAMP:20261105T000000Z
+DTSTART;TZID=America/New_York:20260729T140000
+DTEND;TZID=America/New_York:20260729T143000
+SUMMARY:FOMC Rate Decision
+DESCRIPTION:FOMC Rate Decision\, covering July 28–29 meeting. Released by
+  Board of Governors of the Federal Reserve System at 2:00 PM ET. Source: h
+ ttps://www.federalreserve.gov/monetarypolicy/fomccalendars.htm. FedRateCal
+ c\, CC BY 4.0\, https://fedratecalc.com/data/us-economic-release-calendar-
+ 2026/
+URL:https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
+END:VEVENT
+BEGIN:VEVENT
+UID:gdp-2026-07-30-q2-2026@fedratecalc.com
+DTSTAMP:20261105T000000Z
+DTSTART;TZID=America/New_York:20260730T083000
+DTEND;TZID=America/New_York:20260730T090000
+SUMMARY:GDP (Advance Estimate)
+DESCRIPTION:GDP (Advance Estimate)\, covering Q2 2026. Released by U.S. Bur
+ eau of Economic Analysis at 8:30 AM ET. Source: https://www.bea.gov/news/s
+ chedule. FedRateCalc\, CC BY 4.0\, https://fedratecalc.com/data/us-economi
+ c-release-calendar-2026/
+URL:https://www.bea.gov/news/schedule
+END:VEVENT
+BEGIN:VEVENT
+UID:pce-2026-07-30-june-2026@fedratecalc.com
+DTSTAMP:20261105T000000Z
+DTSTART;TZID=America/New_York:20260730T083000
+DTEND;TZID=America/New_York:20260730T090000
+SUMMARY:Personal Income and Outlays (PCE Inflation)
+DESCRIPTION:Personal Income and Outlays (PCE Inflation)\, covering June 202
+ 6. Released by U.S. Bureau of Economic Analysis at 8:30 AM ET. Source: htt
+ ps://www.bea.gov/news/schedule. FedRateCalc\, CC BY 4.0\, https://fedratec
+ alc.com/data/us-economic-release-calendar-2026/
+URL:https://www.bea.gov/news/schedule
+END:VEVENT
+BEGIN:VEVENT
+UID:jolts-2026-08-04-june-2026@fedratecalc.com
+DTSTAMP:20261105T000000Z
+DTSTART;TZID=America/New_York:20260804T100000
+DTEND;TZID=America/New_York:20260804T103000
+SUMMARY:Job Openings and Labor Turnover Survey (JOLTS)
+DESCRIPTION:Job Openings and Labor Turnover Survey (JOLTS)\, covering June 
+ 2026. Released by U.S. Bureau of Labor Statistics at 10:00 AM ET. Source: 
+ https://www.bls.gov/schedule/2026/home.htm. FedRateCalc\, CC BY 4.0\, http
+ s://fedratecalc.com/data/us-economic-release-calendar-2026/
+URL:https://www.bls.gov/schedule/2026/home.htm
+END:VEVENT
+BEGIN:VEVENT
+UID:employment-2026-08-07-july-2026@fedratecalc.com
+DTSTAMP:20261105T000000Z
+DTSTART;TZID=America/New_York:20260807T083000
+DTEND;TZID=America/New_York:20260807T090000
+SUMMARY:Employment Situation (Nonfarm Payrolls)
+DESCRIPTION:Employment Situation (Nonfarm Payrolls)\, covering July 2026. R
+ eleased by U.S. Bureau of Labor Statistics at 8:30 AM ET. Source: https://
+ www.bls.gov/schedule/2026/home.htm. FedRateCalc\, CC BY 4.0\, https://fedr
+ atecalc.com/data/us-economic-release-calendar-2026/
+URL:https://www.bls.gov/schedule/2026/home.htm
+END:VEVENT
+BEGIN:VEVENT
+UID:cpi-2026-08-12-july-2026@fedratecalc.com
+DTSTAMP:20261105T000000Z
+DTSTART;TZID=America/New_York:20260812T083000
+DTEND;TZID=America/New_York:20260812T090000
+SUMMARY:Consumer Price Index (CPI)
+DESCRIPTION:Consumer Price Index (CPI)\, covering July 2026. Released by U.
+ S. Bureau of Labor Statistics at 8:30 AM ET. Source: https://www.bls.gov/s
+ chedule/2026/home.htm. FedRateCalc\, CC BY 4.0\, https://fedratecalc.com/d
+ ata/us-economic-release-calendar-2026/
+URL:https://www.bls.gov/schedule/2026/home.htm
+END:VEVENT
+BEGIN:VEVENT
+UID:ppi-2026-08-13-july-2026@fedratecalc.com
+DTSTAMP:20261105T000000Z
+DTSTART;TZID=America/New_York:20260813T083000
+DTEND;TZID=America/New_York:20260813T090000
+SUMMARY:Producer Price Index (PPI)
+DESCRIPTION:Producer Price Index (PPI)\, covering July 2026. Released by U.
+ S. Bureau of Labor Statistics at 8:30 AM ET. Source: https://www.bls.gov/s
+ chedule/2026/home.htm. FedRateCalc\, CC BY 4.0\, https://fedratecalc.com/d
+ ata/us-economic-release-calendar-2026/
+URL:https://www.bls.gov/schedule/2026/home.htm
+END:VEVENT
+BEGIN:VEVENT
+UID:retail-sales-2026-08-14-july-2026@fedratecalc.com
+DTSTAMP:20261105T000000Z
+DTSTART;TZID=America/New_York:20260814T083000
+DTEND;TZID=America/New_York:20260814T090000
+SUMMARY:Advance Monthly Retail Sales
+DESCRIPTION:Advance Monthly Retail Sales\, covering July 2026. Released by 
+ U.S. Census Bureau at 8:30 AM ET. Source: https://www.census.gov/economic-
+ indicators/calendar-listview.html. FedRateCalc\, CC BY 4.0\, https://fedra
+ tecalc.com/data/us-economic-release-calendar-2026/
+URL:https://www.census.gov/economic-indicators/calendar-listview.html
+END:VEVENT
+BEGIN:VEVENT
+UID:fomc-minutes-2026-08-19-july-28-29-meeting@fedratecalc.com
+DTSTAMP:20261105T000000Z
+DTSTART;TZID=America/New_York:20260819T140000
+DTEND;TZID=America/New_York:20260819T143000
+SUMMARY:FOMC Meeting Minutes
+DESCRIPTION:FOMC Meeting Minutes\, covering July 28–29 meeting. Released 
+ by Board of Governors of the Federal Reserve System at 2:00 PM ET. Source:
+  https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm. FedRateC
+ alc\, CC BY 4.0\, https://fedratecalc.com/data/us-economic-release-calenda
+ r-2026/
+URL:https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
+END:VEVENT
+BEGIN:VEVENT
+UID:gdp-2026-08-26-q2-2026@fedratecalc.com
+DTSTAMP:20261105T000000Z
+DTSTART;TZID=America/New_York:20260826T083000
+DTEND;TZID=America/New_York:20260826T090000
+SUMMARY:GDP (Second Estimate)
+DESCRIPTION:GDP (Second Estimate)\, covering Q2 2026. Released by U.S. Bure
+ au of Economic Analysis at 8:30 AM ET. Source: https://www.bea.gov/news/sc
+ hedule. FedRateCalc\, CC BY 4.0\, https://fedratecalc.com/data/us-economic
+ -release-calendar-2026/
+URL:https://www.bea.gov/news/schedule
+END:VEVENT
+BEGIN:VEVENT
+UID:pce-2026-08-26-july-2026@fedratecalc.com
+DTSTAMP:20261105T000000Z
+DTSTART;TZID=America/New_York:20260826T083000
+DTEND;TZID=America/New_York:20260826T090000
+SUMMARY:Personal Income and Outlays (PCE Inflation)
+DESCRIPTION:Personal Income and Outlays (PCE Inflation)\, covering July 202
+ 6. Released by U.S. Bureau of Economic Analysis at 8:30 AM ET. Source: htt
+ ps://www.bea.gov/news/schedule. FedRateCalc\, CC BY 4.0\, https://fedratec
+ alc.com/data/us-economic-release-calendar-2026/
+URL:https://www.bea.gov/news/schedule
+END:VEVENT
+BEGIN:VEVENT
+UID:jolts-2026-09-01-july-2026@fedratecalc.com
+DTSTAMP:20261105T000000Z
+DTSTART;TZID=America/New_York:20260901T100000
+DTEND;TZID=America/New_York:20260901T103000
+SUMMARY:Job Openings and Labor Turnover Survey (JOLTS)
+DESCRIPTION:Job Openings and Labor Turnover Survey (JOLTS)\, covering July 
+ 2026. Released by U.S. Bureau of Labor Statistics at 10:00 AM ET. Source: 
+ https://www.bls.gov/schedule/2026/home.htm. FedRateCalc\, CC BY 4.0\, http
+ s://fedratecalc.com/data/us-economic-release-calendar-2026/
+URL:https://www.bls.gov/schedule/2026/home.htm
+END:VEVENT
+BEGIN:VEVENT
+UID:employment-2026-09-04-august-2026@fedratecalc.com
+DTSTAMP:20261105T000000Z
+DTSTART;TZID=America/New_York:20260904T083000
+DTEND;TZID=America/New_York:20260904T090000
+SUMMARY:Employment Situation (Nonfarm Payrolls)
+DESCRIPTION:Employment Situation (Nonfarm Payrolls)\, covering August 2026.
+  Released by U.S. Bureau of Labor Statistics at 8:30 AM ET. Source: https:
+ //www.bls.gov/schedule/2026/home.htm. FedRateCalc\, CC BY 4.0\, https://fe
+ dratecalc.com/data/us-economic-release-calendar-2026/
+URL:https://www.bls.gov/schedule/2026/home.htm
+END:VEVENT
+BEGIN:VEVENT
+UID:ppi-2026-09-10-august-2026@fedratecalc.com
+DTSTAMP:20261105T000000Z
+DTSTART;TZID=America/New_York:20260910T083000
+DTEND;TZID=America/New_York:20260910T090000
+SUMMARY:Producer Price Index (PPI)
+DESCRIPTION:Producer Price Index (PPI)\, covering August 2026. Released by 
+ U.S. Bureau of Labor Statistics at 8:30 AM ET. Source: https://www.bls.gov
+ /schedule/2026/home.htm. FedRateCalc\, CC BY 4.0\, https://fedratecalc.com
+ /data/us-economic-release-calendar-2026/
+URL:https://www.bls.gov/schedule/2026/home.htm
+END:VEVENT
+BEGIN:VEVENT
+UID:cpi-2026-09-11-august-2026@fedratecalc.com
+DTSTAMP:20261105T000000Z
+DTSTART;TZID=America/New_York:20260911T083000
+DTEND;TZID=America/New_York:20260911T090000
+SUMMARY:Consumer Price Index (CPI)
+DESCRIPTION:Consumer Price Index (CPI)\, covering August 2026. Released by 
+ U.S. Bureau of Labor Statistics at 8:30 AM ET. Source: https://www.bls.gov
+ /schedule/2026/home.htm. FedRateCalc\, CC BY 4.0\, https://fedratecalc.com
+ /data/us-economic-release-calendar-2026/
+URL:https://www.bls.gov/schedule/2026/home.htm
+END:VEVENT
+BEGIN:VEVENT
+UID:retail-sales-2026-09-16-august-2026@fedratecalc.com
+DTSTAMP:20261105T000000Z
+DTSTART;TZID=America/New_York:20260916T083000
+DTEND;TZID=America/New_York:20260916T090000
+SUMMARY:Advance Monthly Retail Sales
+DESCRIPTION:Advance Monthly Retail Sales\, covering August 2026. Released b
+ y U.S. Census Bureau at 8:30 AM ET. Source: https://www.census.gov/economi
+ c-indicators/calendar-listview.html. FedRateCalc\, CC BY 4.0\, https://fed
+ ratecalc.com/data/us-economic-release-calendar-2026/
+URL:https://www.census.gov/economic-indicators/calendar-listview.html
+END:VEVENT
+BEGIN:VEVENT
+UID:fomc-2026-09-16-september-15-16-meeting@fedratecalc.com
+DTSTAMP:20261105T000000Z
+DTSTART;TZID=America/New_York:20260916T140000
+DTEND;TZID=America/New_York:20260916T143000
+SUMMARY:FOMC Rate Decision
+DESCRIPTION:FOMC Rate Decision\, covering September 15–16 meeting. Releas
+ ed by Board of Governors of the Federal Reserve System at 2:00 PM ET. Sour
+ ce: https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm. FedRa
+ teCalc\, CC BY 4.0\, https://fedratecalc.com/data/us-economic-release-cale
+ ndar-2026/
+URL:https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
+END:VEVENT
+BEGIN:VEVENT
+UID:jolts-2026-09-29-august-2026@fedratecalc.com
+DTSTAMP:20261105T000000Z
+DTSTART;TZID=America/New_York:20260929T100000
+DTEND;TZID=America/New_York:20260929T103000
+SUMMARY:Job Openings and Labor Turnover Survey (JOLTS)
+DESCRIPTION:Job Openings and Labor Turnover Survey (JOLTS)\, covering Augus
+ t 2026. Released by U.S. Bureau of Labor Statistics at 10:00 AM ET. Source
+ : https://www.bls.gov/schedule/2026/home.htm. FedRateCalc\, CC BY 4.0\, ht
+ tps://fedratecalc.com/data/us-economic-release-calendar-2026/
+URL:https://www.bls.gov/schedule/2026/home.htm
+END:VEVENT
+BEGIN:VEVENT
+UID:gdp-2026-09-30-q2-2026@fedratecalc.com
+DTSTAMP:20261105T000000Z
+DTSTART;TZID=America/New_York:20260930T083000
+DTEND;TZID=America/New_York:20260930T090000
+SUMMARY:GDP (Third Estimate)
+DESCRIPTION:GDP (Third Estimate)\, covering Q2 2026. Released by U.S. Burea
+ u of Economic Analysis at 8:30 AM ET. Source: https://www.bea.gov/news/sch
+ edule. FedRateCalc\, CC BY 4.0\, https://fedratecalc.com/data/us-economic-
+ release-calendar-2026/
+URL:https://www.bea.gov/news/schedule
+END:VEVENT
+BEGIN:VEVENT
+UID:pce-2026-09-30-august-2026@fedratecalc.com
+DTSTAMP:20261105T000000Z
+DTSTART;TZID=America/New_York:20260930T083000
+DTEND;TZID=America/New_York:20260930T090000
+SUMMARY:Personal Income and Outlays (PCE Inflation)
+DESCRIPTION:Personal Income and Outlays (PCE Inflation)\, covering August 2
+ 026. Released by U.S. Bureau of Economic Analysis at 8:30 AM ET. Source: h
+ ttps://www.bea.gov/news/schedule. FedRateCalc\, CC BY 4.0\, https://fedrat
+ ecalc.com/data/us-economic-release-calendar-2026/
+URL:https://www.bea.gov/news/schedule
+END:VEVENT
+BEGIN:VEVENT
+UID:employment-2026-10-02-september-2026@fedratecalc.com
+DTSTAMP:20261105T000000Z
+DTSTART;TZID=America/New_York:20261002T083000
+DTEND;TZID=America/New_York:20261002T090000
+SUMMARY:Employment Situation (Nonfarm Payrolls)
+DESCRIPTION:Employment Situation (Nonfarm Payrolls)\, covering September 20
+ 26. Released by U.S. Bureau of Labor Statistics at 8:30 AM ET. Source: htt
+ ps://www.bls.gov/schedule/2026/home.htm. FedRateCalc\, CC BY 4.0\, https:/
+ /fedratecalc.com/data/us-economic-release-calendar-2026/
+URL:https://www.bls.gov/schedule/2026/home.htm
+END:VEVENT
+BEGIN:VEVENT
+UID:fomc-minutes-2026-10-07-september-15-16-meeting@fedratecalc.com
+DTSTAMP:20261105T000000Z
+DTSTART;TZID=America/New_York:20261007T140000
+DTEND;TZID=America/New_York:20261007T143000
+SUMMARY:FOMC Meeting Minutes
+DESCRIPTION:FOMC Meeting Minutes\, covering September 15–16 meeting. Rele
+ ased by Board of Governors of the Federal Reserve System at 2:00 PM ET. So
+ urce: https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm. Fed
+ RateCalc\, CC BY 4.0\, https://fedratecalc.com/data/us-economic-release-ca
+ lendar-2026/
+URL:https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
+END:VEVENT
+BEGIN:VEVENT
+UID:cpi-2026-10-14-september-2026@fedratecalc.com
+DTSTAMP:20261105T000000Z
+DTSTART;TZID=America/New_York:20261014T083000
+DTEND;TZID=America/New_York:20261014T090000
+SUMMARY:Consumer Price Index (CPI)
+DESCRIPTION:Consumer Price Index (CPI)\, covering September 2026. Released 
+ by U.S. Bureau of Labor Statistics at 8:30 AM ET. Source: https://www.bls.
+ gov/schedule/2026/home.htm. FedRateCalc\, CC BY 4.0\, https://fedratecalc.
+ com/data/us-economic-release-calendar-2026/
+URL:https://www.bls.gov/schedule/2026/home.htm
+END:VEVENT
+BEGIN:VEVENT
+UID:retail-sales-2026-10-15-september-2026@fedratecalc.com
+DTSTAMP:20261105T000000Z
+DTSTART;TZID=America/New_York:20261015T083000
+DTEND;TZID=America/New_York:20261015T090000
+SUMMARY:Advance Monthly Retail Sales
+DESCRIPTION:Advance Monthly Retail Sales\, covering September 2026. Release
+ d by U.S. Census Bureau at 8:30 AM ET. Source: https://www.census.gov/econ
+ omic-indicators/calendar-listview.html. FedRateCalc\, CC BY 4.0\, https://
+ fedratecalc.com/data/us-economic-release-calendar-2026/
+URL:https://www.census.gov/economic-indicators/calendar-listview.html
+END:VEVENT
+BEGIN:VEVENT
+UID:ppi-2026-10-15-september-2026@fedratecalc.com
+DTSTAMP:20261105T000000Z
+DTSTART;TZID=America/New_York:20261015T083000
+DTEND;TZID=America/New_York:20261015T090000
+SUMMARY:Producer Price Index (PPI)
+DESCRIPTION:Producer Price Index (PPI)\, covering September 2026. Released 
+ by U.S. Bureau of Labor Statistics at 8:30 AM ET. Source: https://www.bls.
+ gov/schedule/2026/home.htm. FedRateCalc\, CC BY 4.0\, https://fedratecalc.
+ com/data/us-economic-release-calendar-2026/
+URL:https://www.bls.gov/schedule/2026/home.htm
+END:VEVENT
+BEGIN:VEVENT
+UID:fomc-2026-10-28-october-27-28-meeting@fedratecalc.com
+DTSTAMP:20261105T000000Z
+DTSTART;TZID=America/New_York:20261028T140000
+DTEND;TZID=America/New_York:20261028T143000
+SUMMARY:FOMC Rate Decision
+DESCRIPTION:FOMC Rate Decision\, covering October 27–28 meeting. Released
+  by Board of Governors of the Federal Reserve System at 2:00 PM ET. Source
+ : https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm. FedRate
+ Calc\, CC BY 4.0\, https://fedratecalc.com/data/us-economic-release-calend
+ ar-2026/
+URL:https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
+END:VEVENT
+BEGIN:VEVENT
+UID:gdp-2026-10-29-q3-2026@fedratecalc.com
+DTSTAMP:20261105T000000Z
+DTSTART;TZID=America/New_York:20261029T083000
+DTEND;TZID=America/New_York:20261029T090000
+SUMMARY:GDP (Advance Estimate)
+DESCRIPTION:GDP (Advance Estimate)\, covering Q3 2026. Released by U.S. Bur
+ eau of Economic Analysis at 8:30 AM ET. Source: https://www.bea.gov/news/s
+ chedule. FedRateCalc\, CC BY 4.0\, https://fedratecalc.com/data/us-economi
+ c-release-calendar-2026/
+URL:https://www.bea.gov/news/schedule
+END:VEVENT
+BEGIN:VEVENT
+UID:pce-2026-10-29-september-2026@fedratecalc.com
+DTSTAMP:20261105T000000Z
+DTSTART;TZID=America/New_York:20261029T083000
+DTEND;TZID=America/New_York:20261029T090000
+SUMMARY:Personal Income and Outlays (PCE Inflation)
+DESCRIPTION:Personal Income and Outlays (PCE Inflation)\, covering Septembe
+ r 2026. Released by U.S. Bureau of Economic Analysis at 8:30 AM ET. Source
+ : https://www.bea.gov/news/schedule. FedRateCalc\, CC BY 4.0\, https://fed
+ ratecalc.com/data/us-economic-release-calendar-2026/
+URL:https://www.bea.gov/news/schedule
+END:VEVENT
+BEGIN:VEVENT
+UID:jolts-2026-11-03-september-2026@fedratecalc.com
+DTSTAMP:20261105T000000Z
+DTSTART;TZID=America/New_York:20261103T100000
+DTEND;TZID=America/New_York:20261103T103000
+SUMMARY:Job Openings and Labor Turnover Survey (JOLTS)
+DESCRIPTION:Job Openings and Labor Turnover Survey (JOLTS)\, covering Septe
+ mber 2026. Released by U.S. Bureau of Labor Statistics at 10:00 AM ET. Sou
+ rce: https://www.bls.gov/schedule/2026/home.htm. FedRateCalc\, CC BY 4.0\,
+  https://fedratecalc.com/data/us-economic-release-calendar-2026/
+URL:https://www.bls.gov/schedule/2026/home.htm
+END:VEVENT
+BEGIN:VEVENT
+UID:employment-2026-11-06-october-2026@fedratecalc.com
+DTSTAMP:20261105T000000Z
+DTSTART;TZID=America/New_York:20261106T083000
+DTEND;TZID=America/New_York:20261106T090000
+SUMMARY:Employment Situation (Nonfarm Payrolls)
+DESCRIPTION:Employment Situation (Nonfarm Payrolls)\, covering October 2026
+ . Released by U.S. Bureau of Labor Statistics at 8:30 AM ET. Source: https
+ ://www.bls.gov/schedule/2026/home.htm. FedRateCalc\, CC BY 4.0\, https://f
+ edratecalc.com/data/us-economic-release-calendar-2026/
+URL:https://www.bls.gov/schedule/2026/home.htm
+END:VEVENT
+BEGIN:VEVENT
+UID:cpi-2026-11-10-october-2026@fedratecalc.com
+DTSTAMP:20261105T000000Z
+DTSTART;TZID=America/New_York:20261110T083000
+DTEND;TZID=America/New_York:20261110T090000
+SUMMARY:Consumer Price Index (CPI)
+DESCRIPTION:Consumer Price Index (CPI)\, covering October 2026. Released by
+  U.S. Bureau of Labor Statistics at 8:30 AM ET. Source: https://www.bls.go
+ v/schedule/2026/home.htm. FedRateCalc\, CC BY 4.0\, https://fedratecalc.co
+ m/data/us-economic-release-calendar-2026/
+URL:https://www.bls.gov/schedule/2026/home.htm
+END:VEVENT
+BEGIN:VEVENT
+UID:ppi-2026-11-13-october-2026@fedratecalc.com
+DTSTAMP:20261105T000000Z
+DTSTART;TZID=America/New_York:20261113T083000
+DTEND;TZID=America/New_York:20261113T090000
+SUMMARY:Producer Price Index (PPI)
+DESCRIPTION:Producer Price Index (PPI)\, covering October 2026. Released by
+  U.S. Bureau of Labor Statistics at 8:30 AM ET. Source: https://www.bls.go
+ v/schedule/2026/home.htm. FedRateCalc\, CC BY 4.0\, https://fedratecalc.co
+ m/data/us-economic-release-calendar-2026/
+URL:https://www.bls.gov/schedule/2026/home.htm
+END:VEVENT
+BEGIN:VEVENT
+UID:retail-sales-2026-11-17-october-2026@fedratecalc.com
+DTSTAMP:20261105T000000Z
+DTSTART;TZID=America/New_York:20261117T083000
+DTEND;TZID=America/New_York:20261117T090000
+SUMMARY:Advance Monthly Retail Sales
+DESCRIPTION:Advance Monthly Retail Sales\, covering October 2026. Released 
+ by U.S. Census Bureau at 8:30 AM ET. Source: https://www.census.gov/econom
+ ic-indicators/calendar-listview.html. FedRateCalc\, CC BY 4.0\, https://fe
+ dratecalc.com/data/us-economic-release-calendar-2026/
+URL:https://www.census.gov/economic-indicators/calendar-listview.html
+END:VEVENT
+BEGIN:VEVENT
+UID:fomc-minutes-2026-11-18-october-27-28-meeting@fedratecalc.com
+DTSTAMP:20261105T000000Z
+DTSTART;TZID=America/New_York:20261118T140000
+DTEND;TZID=America/New_York:20261118T143000
+SUMMARY:FOMC Meeting Minutes
+DESCRIPTION:FOMC Meeting Minutes\, covering October 27–28 meeting. Releas
+ ed by Board of Governors of the Federal Reserve System at 2:00 PM ET. Sour
+ ce: https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm. FedRa
+ teCalc\, CC BY 4.0\, https://fedratecalc.com/data/us-economic-release-cale
+ ndar-2026/
+URL:https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
+END:VEVENT
+BEGIN:VEVENT
+UID:gdp-2026-11-25-q3-2026@fedratecalc.com
+DTSTAMP:20261105T000000Z
+DTSTART;TZID=America/New_York:20261125T083000
+DTEND;TZID=America/New_York:20261125T090000
+SUMMARY:GDP (Second Estimate)
+DESCRIPTION:GDP (Second Estimate)\, covering Q3 2026. Released by U.S. Bure
+ au of Economic Analysis at 8:30 AM ET. Source: https://www.bea.gov/news/sc
+ hedule. FedRateCalc\, CC BY 4.0\, https://fedratecalc.com/data/us-economic
+ -release-calendar-2026/
+URL:https://www.bea.gov/news/schedule
+END:VEVENT
+BEGIN:VEVENT
+UID:pce-2026-11-25-october-2026@fedratecalc.com
+DTSTAMP:20261105T000000Z
+DTSTART;TZID=America/New_York:20261125T083000
+DTEND;TZID=America/New_York:20261125T090000
+SUMMARY:Personal Income and Outlays (PCE Inflation)
+DESCRIPTION:Personal Income and Outlays (PCE Inflation)\, covering October 
+ 2026. Released by U.S. Bureau of Economic Analysis at 8:30 AM ET. Source: 
+ https://www.bea.gov/news/schedule. FedRateCalc\, CC BY 4.0\, https://fedra
+ tecalc.com/data/us-economic-release-calendar-2026/
+URL:https://www.bea.gov/news/schedule
+END:VEVENT
+BEGIN:VEVENT
+UID:jolts-2026-12-01-october-2026@fedratecalc.com
+DTSTAMP:20261105T000000Z
+DTSTART;TZID=America/New_York:20261201T100000
+DTEND;TZID=America/New_York:20261201T103000
+SUMMARY:Job Openings and Labor Turnover Survey (JOLTS)
+DESCRIPTION:Job Openings and Labor Turnover Survey (JOLTS)\, covering Octob
+ er 2026. Released by U.S. Bureau of Labor Statistics at 10:00 AM ET. Sourc
+ e: https://www.bls.gov/schedule/2026/home.htm. FedRateCalc\, CC BY 4.0\, h
+ ttps://fedratecalc.com/data/us-economic-release-calendar-2026/
+URL:https://www.bls.gov/schedule/2026/home.htm
+END:VEVENT
+BEGIN:VEVENT
+UID:employment-2026-12-04-november-2026@fedratecalc.com
+DTSTAMP:20261105T000000Z
+DTSTART;TZID=America/New_York:20261204T083000
+DTEND;TZID=America/New_York:20261204T090000
+SUMMARY:Employment Situation (Nonfarm Payrolls)
+DESCRIPTION:Employment Situation (Nonfarm Payrolls)\, covering November 202
+ 6. Released by U.S. Bureau of Labor Statistics at 8:30 AM ET. Source: http
+ s://www.bls.gov/schedule/2026/home.htm. FedRateCalc\, CC BY 4.0\, https://
+ fedratecalc.com/data/us-economic-release-calendar-2026/
+URL:https://www.bls.gov/schedule/2026/home.htm
+END:VEVENT
+BEGIN:VEVENT
+UID:fomc-2026-12-09-december-8-9-meeting@fedratecalc.com
+DTSTAMP:20261105T000000Z
+DTSTART;TZID=America/New_York:20261209T140000
+DTEND;TZID=America/New_York:20261209T143000
+SUMMARY:FOMC Rate Decision
+DESCRIPTION:FOMC Rate Decision\, covering December 8–9 meeting. Released 
+ by Board of Governors of the Federal Reserve System at 2:00 PM ET. Source:
+  https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm. FedRateC
+ alc\, CC BY 4.0\, https://fedratecalc.com/data/us-economic-release-calenda
+ r-2026/
+URL:https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
+END:VEVENT
+BEGIN:VEVENT
+UID:cpi-2026-12-10-november-2026@fedratecalc.com
+DTSTAMP:20261105T000000Z
+DTSTART;TZID=America/New_York:20261210T083000
+DTEND;TZID=America/New_York:20261210T090000
+SUMMARY:Consumer Price Index (CPI)
+DESCRIPTION:Consumer Price Index (CPI)\, covering November 2026. Released b
+ y U.S. Bureau of Labor Statistics at 8:30 AM ET. Source: https://www.bls.g
+ ov/schedule/2026/home.htm. FedRateCalc\, CC BY 4.0\, https://fedratecalc.c
+ om/data/us-economic-release-calendar-2026/
+URL:https://www.bls.gov/schedule/2026/home.htm
+END:VEVENT
+BEGIN:VEVENT
+UID:ppi-2026-12-15-november-2026@fedratecalc.com
+DTSTAMP:20261105T000000Z
+DTSTART;TZID=America/New_York:20261215T083000
+DTEND;TZID=America/New_York:20261215T090000
+SUMMARY:Producer Price Index (PPI)
+DESCRIPTION:Producer Price Index (PPI)\, covering November 2026. Released b
+ y U.S. Bureau of Labor Statistics at 8:30 AM ET. Source: https://www.bls.g
+ ov/schedule/2026/home.htm. FedRateCalc\, CC BY 4.0\, https://fedratecalc.c
+ om/data/us-economic-release-calendar-2026/
+URL:https://www.bls.gov/schedule/2026/home.htm
+END:VEVENT
+BEGIN:VEVENT
+UID:retail-sales-2026-12-16-november-2026@fedratecalc.com
+DTSTAMP:20261105T000000Z
+DTSTART;TZID=America/New_York:20261216T083000
+DTEND;TZID=America/New_York:20261216T090000
+SUMMARY:Advance Monthly Retail Sales
+DESCRIPTION:Advance Monthly Retail Sales\, covering November 2026. Released
+  by U.S. Census Bureau at 8:30 AM ET. Source: https://www.census.gov/econo
+ mic-indicators/calendar-listview.html. FedRateCalc\, CC BY 4.0\, https://f
+ edratecalc.com/data/us-economic-release-calendar-2026/
+URL:https://www.census.gov/economic-indicators/calendar-listview.html
+END:VEVENT
+BEGIN:VEVENT
+UID:gdp-2026-12-23-q3-2026@fedratecalc.com
+DTSTAMP:20261105T000000Z
+DTSTART;TZID=America/New_York:20261223T083000
+DTEND;TZID=America/New_York:20261223T090000
+SUMMARY:GDP (Third Estimate)
+DESCRIPTION:GDP (Third Estimate)\, covering Q3 2026. Released by U.S. Burea
+ u of Economic Analysis at 8:30 AM ET. Source: https://www.bea.gov/news/sch
+ edule. FedRateCalc\, CC BY 4.0\, https://fedratecalc.com/data/us-economic-
+ release-calendar-2026/
+URL:https://www.bea.gov/news/schedule
+END:VEVENT
+BEGIN:VEVENT
+UID:pce-2026-12-23-november-2026@fedratecalc.com
+DTSTAMP:20261105T000000Z
+DTSTART;TZID=America/New_York:20261223T083000
+DTEND;TZID=America/New_York:20261223T090000
+SUMMARY:Personal Income and Outlays (PCE Inflation)
+DESCRIPTION:Personal Income and Outlays (PCE Inflation)\, covering November
+  2026. Released by U.S. Bureau of Economic Analysis at 8:30 AM ET. Source:
+  https://www.bea.gov/news/schedule. FedRateCalc\, CC BY 4.0\, https://fedr
+ atecalc.com/data/us-economic-release-calendar-2026/
+URL:https://www.bea.gov/news/schedule
+END:VEVENT
+END:VCALENDAR

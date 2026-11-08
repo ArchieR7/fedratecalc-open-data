@@ -1,0 +1,251 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//FedRateCalc//Open Data//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:FOMC meeting dates 2026-2027
+X-WR-CALDESC:FOMC meeting dates 2026-2027. Source: Federal Reserve Board: F
+ OMC meeting calendars and information (https://www.federalreserve.gov/mone
+ tarypolicy/fomccalendars.htm). Compiled by FedRateCalc\, CC BY 4.0 (https:
+ //creativecommons.org/licenses/by/4.0/)\, attribution "FedRateCalc". Gener
+ ated 2026-11-05\, data as of 2026-11-06. https://fedratecalc.com/data/fomc
+ -meetings-2026-2027/
+X-WR-TIMEZONE:America/New_York
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:fomc-2026-01-28@fedratecalc.com
+DTSTAMP:20261105T000000Z
+DTSTART;TZID=America/New_York:20260128T140000
+DTEND;TZID=America/New_York:20260128T143000
+SUMMARY:FOMC statement
+DESCRIPTION:Federal Open Market Committee meeting of January 27\, 2026 to J
+ anuary 28\, 2026\; statement at 2:00 p.m. ET. Source: https://www.federalr
+ eserve.gov/monetarypolicy/fomccalendars.htm. FedRateCalc\, CC BY 4.0\, htt
+ ps://fedratecalc.com/data/fomc-meetings-2026-2027/
+STATUS:CONFIRMED
+URL:https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
+END:VEVENT
+BEGIN:VEVENT
+UID:fomc-2026-03-18@fedratecalc.com
+DTSTAMP:20261105T000000Z
+DTSTART;TZID=America/New_York:20260318T140000
+DTEND;TZID=America/New_York:20260318T143000
+SUMMARY:FOMC statement (SEP meeting)
+DESCRIPTION:Federal Open Market Committee meeting of March 17\, 2026 to Mar
+ ch 18\, 2026\; statement at 2:00 p.m. ET with the Summary of Economic Proj
+ ections. Source: https://www.federalreserve.gov/monetarypolicy/fomccalenda
+ rs.htm. FedRateCalc\, CC BY 4.0\, https://fedratecalc.com/data/fomc-meetin
+ gs-2026-2027/
+STATUS:CONFIRMED
+URL:https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
+END:VEVENT
+BEGIN:VEVENT
+UID:fomc-2026-04-29@fedratecalc.com
+DTSTAMP:20261105T000000Z
+DTSTART;TZID=America/New_York:20260429T140000
+DTEND;TZID=America/New_York:20260429T143000
+SUMMARY:FOMC statement
+DESCRIPTION:Federal Open Market Committee meeting of April 28\, 2026 to Apr
+ il 29\, 2026\; statement at 2:00 p.m. ET. Source: https://www.federalreser
+ ve.gov/monetarypolicy/fomccalendars.htm. FedRateCalc\, CC BY 4.0\, https:/
+ /fedratecalc.com/data/fomc-meetings-2026-2027/
+STATUS:CONFIRMED
+URL:https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
+END:VEVENT
+BEGIN:VEVENT
+UID:fomc-2026-06-17@fedratecalc.com
+DTSTAMP:20261105T000000Z
+DTSTART;TZID=America/New_York:20260617T140000
+DTEND;TZID=America/New_York:20260617T143000
+SUMMARY:FOMC statement (SEP meeting)
+DESCRIPTION:Federal Open Market Committee meeting of June 16\, 2026 to June
+  17\, 2026\; statement at 2:00 p.m. ET with the Summary of Economic Projec
+ tions. Source: https://www.federalreserve.gov/monetarypolicy/fomccalendars
+ .htm. FedRateCalc\, CC BY 4.0\, https://fedratecalc.com/data/fomc-meetings
+ -2026-2027/
+STATUS:CONFIRMED
+URL:https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
+END:VEVENT
+BEGIN:VEVENT
+UID:fomc-2026-07-29@fedratecalc.com
+DTSTAMP:20261105T000000Z
+DTSTART;TZID=America/New_York:20260729T140000
+DTEND;TZID=America/New_York:20260729T143000
+SUMMARY:FOMC statement
+DESCRIPTION:Federal Open Market Committee meeting of July 28\, 2026 to July
+  29\, 2026\; statement at 2:00 p.m. ET. Source: https://www.federalreserve
+ .gov/monetarypolicy/fomccalendars.htm. FedRateCalc\, CC BY 4.0\, https://f
+ edratecalc.com/data/fomc-meetings-2026-2027/
+STATUS:CONFIRMED
+URL:https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
+END:VEVENT
+BEGIN:VEVENT
+UID:fomc-2026-09-16@fedratecalc.com
+DTSTAMP:20261105T000000Z
+DTSTART;TZID=America/New_York:20260916T140000
+DTEND;TZID=America/New_York:20260916T143000
+SUMMARY:FOMC statement (SEP meeting)
+DESCRIPTION:Federal Open Market Committee meeting of September 15\, 2026 to
+  September 16\, 2026\; statement at 2:00 p.m. ET with the Summary of Econo
+ mic Projections. Source: https://www.federalreserve.gov/monetarypolicy/fom
+ ccalendars.htm. FedRateCalc\, CC BY 4.0\, https://fedratecalc.com/data/fom
+ c-meetings-2026-2027/
+STATUS:CONFIRMED
+URL:https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
+END:VEVENT
+BEGIN:VEVENT
+UID:fomc-2026-10-28@fedratecalc.com
+DTSTAMP:20261105T000000Z
+DTSTART;TZID=America/New_York:20261028T140000
+DTEND;TZID=America/New_York:20261028T143000
+SUMMARY:FOMC statement
+DESCRIPTION:Federal Open Market Committee meeting of October 27\, 2026 to O
+ ctober 28\, 2026\; statement at 2:00 p.m. ET. Source: https://www.federalr
+ eserve.gov/monetarypolicy/fomccalendars.htm. FedRateCalc\, CC BY 4.0\, htt
+ ps://fedratecalc.com/data/fomc-meetings-2026-2027/
+STATUS:CONFIRMED
+URL:https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
+END:VEVENT
+BEGIN:VEVENT
+UID:fomc-2026-12-09@fedratecalc.com
+DTSTAMP:20261105T000000Z
+DTSTART;TZID=America/New_York:20261209T140000
+DTEND;TZID=America/New_York:20261209T143000
+SUMMARY:FOMC statement (SEP meeting)
+DESCRIPTION:Federal Open Market Committee meeting of December 8\, 2026 to D
+ ecember 9\, 2026\; statement at 2:00 p.m. ET with the Summary of Economic 
+ Projections. Source: https://www.federalreserve.gov/monetarypolicy/fomccal
+ endars.htm. FedRateCalc\, CC BY 4.0\, https://fedratecalc.com/data/fomc-me
+ etings-2026-2027/
+STATUS:CONFIRMED
+URL:https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
+END:VEVENT
+BEGIN:VEVENT
+UID:fomc-2027-01-27@fedratecalc.com
+DTSTAMP:20261105T000000Z
+DTSTART;TZID=America/New_York:20270127T140000
+DTEND;TZID=America/New_York:20270127T143000
+SUMMARY:FOMC statement
+DESCRIPTION:Federal Open Market Committee meeting of January 26\, 2027 to J
+ anuary 27\, 2027\; statement at 2:00 p.m. ET. The Federal Reserve lists th
+ is date as tentative. Source: https://www.federalreserve.gov/monetarypolic
+ y/fomccalendars.htm. FedRateCalc\, CC BY 4.0\, https://fedratecalc.com/dat
+ a/fomc-meetings-2026-2027/
+STATUS:TENTATIVE
+URL:https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
+END:VEVENT
+BEGIN:VEVENT
+UID:fomc-2027-03-17@fedratecalc.com
+DTSTAMP:20261105T000000Z
+DTSTART;TZID=America/New_York:20270317T140000
+DTEND;TZID=America/New_York:20270317T143000
+SUMMARY:FOMC statement (SEP meeting)
+DESCRIPTION:Federal Open Market Committee meeting of March 16\, 2027 to Mar
+ ch 17\, 2027\; statement at 2:00 p.m. ET with the Summary of Economic Proj
+ ections. The Federal Reserve lists this date as tentative. Source: https:/
+ /www.federalreserve.gov/monetarypolicy/fomccalendars.htm. FedRateCalc\, CC
+  BY 4.0\, https://fedratecalc.com/data/fomc-meetings-2026-2027/
+STATUS:TENTATIVE
+URL:https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
+END:VEVENT
+BEGIN:VEVENT
+UID:fomc-2027-04-28@fedratecalc.com
+DTSTAMP:20261105T000000Z
+DTSTART;TZID=America/New_York:20270428T140000
+DTEND;TZID=America/New_York:20270428T143000
+SUMMARY:FOMC statement
+DESCRIPTION:Federal Open Market Committee meeting of April 27\, 2027 to Apr
+ il 28\, 2027\; statement at 2:00 p.m. ET. The Federal Reserve lists this d
+ ate as tentative. Source: https://www.federalreserve.gov/monetarypolicy/fo
+ mccalendars.htm. FedRateCalc\, CC BY 4.0\, https://fedratecalc.com/data/fo
+ mc-meetings-2026-2027/
+STATUS:TENTATIVE
+URL:https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
+END:VEVENT
+BEGIN:VEVENT
+UID:fomc-2027-06-09@fedratecalc.com
+DTSTAMP:20261105T000000Z
+DTSTART;TZID=America/New_York:20270609T140000
+DTEND;TZID=America/New_York:20270609T143000
+SUMMARY:FOMC statement (SEP meeting)
+DESCRIPTION:Federal Open Market Committee meeting of June 8\, 2027 to June 
+ 9\, 2027\; statement at 2:00 p.m. ET with the Summary of Economic Projecti
+ ons. The Federal Reserve lists this date as tentative. Source: https://www
+ .federalreserve.gov/monetarypolicy/fomccalendars.htm. FedRateCalc\, CC BY 
+ 4.0\, https://fedratecalc.com/data/fomc-meetings-2026-2027/
+STATUS:TENTATIVE
+URL:https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
+END:VEVENT
+BEGIN:VEVENT
+UID:fomc-2027-07-28@fedratecalc.com
+DTSTAMP:20261105T000000Z
+DTSTART;TZID=America/New_York:20270728T140000
+DTEND;TZID=America/New_York:20270728T143000
+SUMMARY:FOMC statement
+DESCRIPTION:Federal Open Market Committee meeting of July 27\, 2027 to July
+  28\, 2027\; statement at 2:00 p.m. ET. The Federal Reserve lists this dat
+ e as tentative. Source: https://www.federalreserve.gov/monetarypolicy/fomc
+ calendars.htm. FedRateCalc\, CC BY 4.0\, https://fedratecalc.com/data/fomc
+ -meetings-2026-2027/
+STATUS:TENTATIVE
+URL:https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
+END:VEVENT
+BEGIN:VEVENT
+UID:fomc-2027-09-15@fedratecalc.com
+DTSTAMP:20261105T000000Z
+DTSTART;TZID=America/New_York:20270915T140000
+DTEND;TZID=America/New_York:20270915T143000
+SUMMARY:FOMC statement (SEP meeting)
+DESCRIPTION:Federal Open Market Committee meeting of September 14\, 2027 to
+  September 15\, 2027\; statement at 2:00 p.m. ET with the Summary of Econo
+ mic Projections. The Federal Reserve lists this date as tentative. Source:
+  https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm. FedRateC
+ alc\, CC BY 4.0\, https://fedratecalc.com/data/fomc-meetings-2026-2027/
+STATUS:TENTATIVE
+URL:https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
+END:VEVENT
+BEGIN:VEVENT
+UID:fomc-2027-10-27@fedratecalc.com
+DTSTAMP:20261105T000000Z
+DTSTART;TZID=America/New_York:20271027T140000
+DTEND;TZID=America/New_York:20271027T143000
+SUMMARY:FOMC statement
+DESCRIPTION:Federal Open Market Committee meeting of October 26\, 2027 to O
+ ctober 27\, 2027\; statement at 2:00 p.m. ET. The Federal Reserve lists th
+ is date as tentative. Source: https://www.federalreserve.gov/monetarypolic
+ y/fomccalendars.htm. FedRateCalc\, CC BY 4.0\, https://fedratecalc.com/dat
+ a/fomc-meetings-2026-2027/
+STATUS:TENTATIVE
+URL:https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
+END:VEVENT
+BEGIN:VEVENT
+UID:fomc-2027-12-08@fedratecalc.com
+DTSTAMP:20261105T000000Z
+DTSTART;TZID=America/New_York:20271208T140000
+DTEND;TZID=America/New_York:20271208T143000
+SUMMARY:FOMC statement (SEP meeting)
+DESCRIPTION:Federal Open Market Committee meeting of December 7\, 2027 to D
+ ecember 8\, 2027\; statement at 2:00 p.m. ET with the Summary of Economic 
+ Projections. The Federal Reserve lists this date as tentative. Source: htt
+ ps://www.federalreserve.gov/monetarypolicy/fomccalendars.htm. FedRateCalc\
+ , CC BY 4.0\, https://fedratecalc.com/data/fomc-meetings-2026-2027/
+STATUS:TENTATIVE
+URL:https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
+END:VEVENT
+END:VCALENDAR

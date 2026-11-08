@@ -1,0 +1,214 @@
+{
+  "metadata": {
+    "name": "FOMC rate decisions 2025-2026",
+    "description": "Each Federal Open Market Committee decision that FedRateCalc records for 2025 to 2026: the decision day, the meeting start date, the outcome (hold, increase or decrease), the change in basis points, the federal funds target range after the decision, whether the meeting had a Summary of Economic Projections, and the link to the Federal Reserve statement.",
+    "url": "https://fedratecalc.com/data/fomc-decisions/",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "licenseName": "CC BY 4.0",
+    "attribution": "FedRateCalc",
+    "attributionText": "FedRateCalc (https://fedratecalc.com/data/fomc-decisions/), CC BY 4.0",
+    "sources": [
+      {
+        "label": "Federal Reserve Board: FOMC meeting calendars and information",
+        "href": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
+      }
+    ],
+    "generated": "2026-11-05",
+    "dataAsOf": "2026-11-06",
+    "temporalCoverage": "2025-01-29/2026-10-28",
+    "columns": [
+      {
+        "name": "decision_date",
+        "type": "date",
+        "meaning": "Decision day, the day of the 2:00 p.m. ET statement (YYYY-MM-DD)."
+      },
+      {
+        "name": "meeting_start_date",
+        "type": "date",
+        "meaning": "First day of the two-day meeting (YYYY-MM-DD)."
+      },
+      {
+        "name": "decision",
+        "type": "enum",
+        "meaning": "hold, increase or decrease of the target range."
+      },
+      {
+        "name": "change_bps",
+        "type": "integer",
+        "meaning": "Change in basis points: 25 is an increase of 0.25 percentage point, -25 a decrease, 0 a hold."
+      },
+      {
+        "name": "target_lower_pct",
+        "type": "number",
+        "meaning": "Lower end of the federal funds target range after the decision, in percent."
+      },
+      {
+        "name": "target_upper_pct",
+        "type": "number",
+        "meaning": "Upper end of the federal funds target range after the decision, in percent."
+      },
+      {
+        "name": "sep",
+        "type": "enum",
+        "meaning": "yes when the meeting is associated with a Summary of Economic Projections, otherwise no."
+      },
+      {
+        "name": "source_url",
+        "type": "string",
+        "meaning": "The Federal Reserve statement page for the decision."
+      }
+    ]
+  },
+  "rows": [
+    {
+      "decision_date": "2025-01-29",
+      "meeting_start_date": "2025-01-28",
+      "decision": "hold",
+      "change_bps": 0,
+      "target_lower_pct": 4.25,
+      "target_upper_pct": 4.5,
+      "sep": "no",
+      "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20250129a.htm"
+    },
+    {
+      "decision_date": "2025-03-19",
+      "meeting_start_date": "2025-03-18",
+      "decision": "hold",
+      "change_bps": 0,
+      "target_lower_pct": 4.25,
+      "target_upper_pct": 4.5,
+      "sep": "yes",
+      "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20250319a.htm"
+    },
+    {
+      "decision_date": "2025-05-07",
+      "meeting_start_date": "2025-05-06",
+      "decision": "hold",
+      "change_bps": 0,
+      "target_lower_pct": 4.25,
+      "target_upper_pct": 4.5,
+      "sep": "no",
+      "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20250507a.htm"
+    },
+    {
+      "decision_date": "2025-06-18",
+      "meeting_start_date": "2025-06-17",
+      "decision": "hold",
+      "change_bps": 0,
+      "target_lower_pct": 4.25,
+      "target_upper_pct": 4.5,
+      "sep": "yes",
+      "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20250618a.htm"
+    },
+    {
+      "decision_date": "2025-07-30",
+      "meeting_start_date": "2025-07-29",
+      "decision": "hold",
+      "change_bps": 0,
+      "target_lower_pct": 4.25,
+      "target_upper_pct": 4.5,
+      "sep": "no",
+      "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20250730a.htm"
+    },
+    {
+      "decision_date": "2025-09-17",
+      "meeting_start_date": "2025-09-16",
+      "decision": "decrease",
+      "change_bps": -25,
+      "target_lower_pct": 4,
+      "target_upper_pct": 4.25,
+      "sep": "yes",
+      "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20250917a.htm"
+    },
+    {
+      "decision_date": "2025-10-29",
+      "meeting_start_date": "2025-10-28",
+      "decision": "decrease",
+      "change_bps": -25,
+      "target_lower_pct": 3.75,
+      "target_upper_pct": 4,
+      "sep": "no",
+      "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20251029a.htm"
+    },
+    {
+      "decision_date": "2025-12-10",
+      "meeting_start_date": "2025-12-09",
+      "decision": "decrease",
+      "change_bps": -25,
+      "target_lower_pct": 3.5,
+      "target_upper_pct": 3.75,
+      "sep": "yes",
+      "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20251210a.htm"
+    },
+    {
+      "decision_date": "2026-01-28",
+      "meeting_start_date": "2026-01-27",
+      "decision": "hold",
+      "change_bps": 0,
+      "target_lower_pct": 3.5,
+      "target_upper_pct": 3.75,
+      "sep": "no",
+      "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260128a.htm"
+    },
+    {
+      "decision_date": "2026-03-18",
+      "meeting_start_date": "2026-03-17",
+      "decision": "hold",
+      "change_bps": 0,
+      "target_lower_pct": 3.5,
+      "target_upper_pct": 3.75,
+      "sep": "yes",
+      "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260318a.htm"
+    },
+    {
+      "decision_date": "2026-04-29",
+      "meeting_start_date": "2026-04-28",
+      "decision": "hold",
+      "change_bps": 0,
+      "target_lower_pct": 3.5,
+      "target_upper_pct": 3.75,
+      "sep": "no",
+      "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260429a.htm"
+    },
+    {
+      "decision_date": "2026-06-17",
+      "meeting_start_date": "2026-06-16",
+      "decision": "hold",
+      "change_bps": 0,
+      "target_lower_pct": 3.5,
+      "target_upper_pct": 3.75,
+      "sep": "yes",
+      "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617a.htm"
+    },
+    {
+      "decision_date": "2026-07-29",
+      "meeting_start_date": "2026-07-28",
+      "decision": "hold",
+      "change_bps": 0,
+      "target_lower_pct": 3.5,
+      "target_upper_pct": 3.75,
+      "sep": "no",
+      "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260729a.htm"
+    },
+    {
+      "decision_date": "2026-09-16",
+      "meeting_start_date": "2026-09-15",
+      "decision": "increase",
+      "change_bps": 25,
+      "target_lower_pct": 3.75,
+      "target_upper_pct": 4,
+      "sep": "yes",
+      "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm"
+    },
+    {
+      "decision_date": "2026-10-28",
+      "meeting_start_date": "2026-10-27",
+      "decision": "hold",
+      "change_bps": 0,
+      "target_lower_pct": 3.75,
+      "target_upper_pct": 4,
+      "sep": "no",
+      "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm"
+    }
+  ]
+}
