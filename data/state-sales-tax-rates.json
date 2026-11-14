@@ -1,7 +1,7 @@
 {
   "metadata": {
     "name": "State sales tax rates by state",
-    "description": "The statewide sales tax rate of each state and the District of Columbia as FedRateCalc reads it from an official source: the state tax agency's own page, the state's statute or an agency PDF. 37 states are verified and carry a rate (0 where the source says the state has no general sales tax; Hawaii's general excise tax and Arizona's transaction privilege tax are labelled as such). The other 14 states are pending: their official source has not been read yet, so the file gives their official URL and no rate. Each verified row names the source type, the citation, the effective date when the source states one, whether the source says local taxes apply, and the date the source was checked. Local, county and city rates are not in this file.",
+    "description": "The statewide sales tax rate of each state and the District of Columbia as FedRateCalc reads it from an official source: the state tax agency's own page, the state's statute or an agency PDF. 42 states are verified and carry a rate (0 where the source says the state has no general sales tax; Hawaii's general excise tax and Arizona's transaction privilege tax are labelled as such). The other 9 states are pending: their official source has not been read yet, so the file gives their official URL and no rate. Each verified row names the source type, the citation, the effective date when the source states one, whether the source says local taxes apply, and the date the source was checked. Local, county and city rates are not in this file.",
     "url": "https://fedratecalc.com/data/state-sales-tax-rates/",
     "license": "https://creativecommons.org/licenses/by/4.0/",
     "licenseName": "CC BY 4.0",
@@ -30,8 +30,16 @@
         "href": "https://cdtfa.ca.gov/taxes-and-fees/sales-use-tax-rates.htm"
       },
       {
+        "label": "Colorado: state tax agency",
+        "href": "https://tax.colorado.gov/sales-tax-guide"
+      },
+      {
         "label": "Connecticut: state tax agency",
         "href": "https://portal.ct.gov/DRS/Sales-Tax/Tax-Information"
+      },
+      {
+        "label": "Delaware: state tax agency",
+        "href": "https://revenue.delaware.gov/business-tax-forms/doing-business-in-delaware/step-4-gross-receipts-taxes/"
       },
       {
         "label": "District of Columbia: state statute (DC Official Code 47-2002)",
@@ -54,12 +62,20 @@
         "href": "https://tax.idaho.gov/taxes/sales-use/online-guide/"
       },
       {
+        "label": "Illinois: state tax agency",
+        "href": "https://tax.illinois.gov/research/taxinformation/sales/rot/pio-101.html"
+      },
+      {
         "label": "Iowa: state tax agency",
         "href": "https://revenue.iowa.gov/taxes/tax-guidance/sales-use-excise-tax/sales-use-tax-guide"
       },
       {
         "label": "Kansas: state statute (K.S.A. 79-3603)",
         "href": "https://www.ksrevisor.org/statutes/chapters/ch79/079_036_0003.html"
+      },
+      {
+        "label": "Kentucky: state statute (KRS 139.200)",
+        "href": "https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=58186"
       },
       {
         "label": "Maine: state statute (36 M.R.S. 1811)",
@@ -88,6 +104,10 @@
       {
         "label": "Nebraska: state tax agency",
         "href": "https://revenue.nebraska.gov/businesses/nebraska-sales-and-use-tax"
+      },
+      {
+        "label": "Nevada: state tax agency",
+        "href": "https://tax.nv.gov/news-publications/sales-use-tax-publications/"
       },
       {
         "label": "New Jersey: state tax agency",
@@ -159,8 +179,8 @@
       }
     ],
     "generated": "2026-11-05",
-    "dataAsOf": "2026-11-08",
-    "temporalCoverage": "2026-11-08/2026-11-08",
+    "dataAsOf": "2026-11-13",
+    "temporalCoverage": "2026-11-08/2026-11-13",
     "columns": [
       {
         "name": "state",
@@ -318,18 +338,18 @@
     {
       "state": "Colorado",
       "state_abbr": "CO",
-      "status": "pending",
-      "tax_kind": null,
-      "statewide_rate_pct": null,
+      "status": "verified",
+      "tax_kind": "sales",
+      "statewide_rate_pct": 2.9,
       "rate_effective_date": null,
       "effective_note": null,
-      "local_taxes": null,
+      "local_taxes": "yes",
       "caveat": null,
       "source_type": "agency page",
       "citation": null,
-      "source_url": "https://tax.colorado.gov/sales-use-tax",
-      "checked": null,
-      "page_url": null
+      "source_url": "https://tax.colorado.gov/sales-tax-guide",
+      "checked": "2026-11-13",
+      "page_url": "https://fedratecalc.com/sales-tax-calculator/colorado/"
     },
     {
       "state": "Connecticut",
@@ -350,18 +370,18 @@
     {
       "state": "Delaware",
       "state_abbr": "DE",
-      "status": "pending",
-      "tax_kind": null,
-      "statewide_rate_pct": null,
+      "status": "verified",
+      "tax_kind": "none",
+      "statewide_rate_pct": 0,
       "rate_effective_date": null,
       "effective_note": null,
-      "local_taxes": null,
+      "local_taxes": "no",
       "caveat": null,
       "source_type": "agency page",
       "citation": null,
-      "source_url": "https://revenue.delaware.gov/",
-      "checked": null,
-      "page_url": null
+      "source_url": "https://revenue.delaware.gov/business-tax-forms/doing-business-in-delaware/step-4-gross-receipts-taxes/",
+      "checked": "2026-11-13",
+      "page_url": "https://fedratecalc.com/sales-tax-calculator/delaware/"
     },
     {
       "state": "District of Columbia",
@@ -446,18 +466,18 @@
     {
       "state": "Illinois",
       "state_abbr": "IL",
-      "status": "pending",
-      "tax_kind": null,
-      "statewide_rate_pct": null,
+      "status": "verified",
+      "tax_kind": "sales",
+      "statewide_rate_pct": 6.25,
       "rate_effective_date": null,
       "effective_note": null,
-      "local_taxes": null,
-      "caveat": null,
+      "local_taxes": "yes",
+      "caveat": "Illinois also has a 1% rate on qualifying drugs and medical appliances. This calculator uses the 6.25% rate for general merchandise.",
       "source_type": "agency page",
       "citation": null,
-      "source_url": "https://tax.illinois.gov/research/taxrates.html",
-      "checked": null,
-      "page_url": null
+      "source_url": "https://tax.illinois.gov/research/taxinformation/sales/rot/pio-101.html",
+      "checked": "2026-11-13",
+      "page_url": "https://fedratecalc.com/sales-tax-calculator/illinois/"
     },
     {
       "state": "Indiana",
@@ -510,18 +530,18 @@
     {
       "state": "Kentucky",
       "state_abbr": "KY",
-      "status": "pending",
-      "tax_kind": null,
-      "statewide_rate_pct": null,
+      "status": "verified",
+      "tax_kind": "sales",
+      "statewide_rate_pct": 6,
       "rate_effective_date": null,
       "effective_note": null,
-      "local_taxes": null,
+      "local_taxes": "unstated",
       "caveat": null,
-      "source_type": "agency page",
-      "citation": null,
-      "source_url": "https://revenue.ky.gov/Business/Sales-Use-Tax/Pages/default.aspx",
-      "checked": null,
-      "page_url": null
+      "source_type": "statute",
+      "citation": "KRS 139.200",
+      "source_url": "https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=58186",
+      "checked": "2026-11-13",
+      "page_url": "https://fedratecalc.com/sales-tax-calculator/kentucky/"
     },
     {
       "state": "Louisiana",
@@ -686,18 +706,18 @@
     {
       "state": "Nevada",
       "state_abbr": "NV",
-      "status": "pending",
-      "tax_kind": null,
-      "statewide_rate_pct": null,
+      "status": "verified",
+      "tax_kind": "sales",
+      "statewide_rate_pct": 6.85,
       "rate_effective_date": null,
       "effective_note": null,
-      "local_taxes": null,
+      "local_taxes": "yes",
       "caveat": null,
       "source_type": "agency page",
       "citation": null,
-      "source_url": "https://tax.nv.gov/",
-      "checked": null,
-      "page_url": null
+      "source_url": "https://tax.nv.gov/news-publications/sales-use-tax-publications/",
+      "checked": "2026-11-13",
+      "page_url": "https://fedratecalc.com/sales-tax-calculator/nevada/"
     },
     {
       "state": "New Hampshire",

@@ -2,7 +2,7 @@
 
 U.S. federal rate, calendar, holiday, wage, sales tax and electricity price data in CSV, JSON and ICS, mirrored from the [FedRateCalc open data hub](https://fedratecalc.com/data/). Each dataset is generated from official sources (Federal Reserve Board, BLS, BEA, OPM, EIA, state labor and tax departments) and checked on the date shown on its page.
 
-Synced from https://fedratecalc.com/data/ on 2026-11-09. The website is the canonical, most current copy; this repository is a convenience mirror.
+Synced from https://fedratecalc.com/data/ on 2026-11-15. The website is the canonical, most current copy; this repository is a convenience mirror.
 
 ## Datasets
 
